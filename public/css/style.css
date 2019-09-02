@@ -1,0 +1,240 @@
+html{
+	box-sizing: border-box;
+}
+*,*:before,*:after{
+	box-sizing: inherit;
+}
+body{
+
+	
+}
+@media (max-width: 325px){
+	#logo{
+		width: 200px;
+	}
+}
+@media (max-width: 993px){
+	#logo{
+		position: relative;
+		bottom: 20px;
+	}
+}
+@media (max-width: 993px){
+	#botonmenu{
+		position: relative;
+		bottom: 20px;
+	}
+}
+
+.menunav{
+	padding-right: 0px;
+	padding-left: 0px;
+}
+.menuprincipal{
+	height: 100px;
+}
+.colornav{
+	background-color: white;
+	-webkit-box-shadow: 0px 11px 12px -3px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 11px 12px -3px rgba(0,0,0,0.75);
+	box-shadow: 0px 11px 12px -3px rgba(0,0,0,0.75);
+	bottom: 5px;
+}
+ .linkmenu:hover{
+	color:blue !important;
+	transition:  margin-left 4s, color 1s;
+	
+}
+.textoslider{
+	text-shadow: 1px 1px black;
+	color:white;
+}
+
+.seccion1{
+	padding: 45px;
+	background-color: rgba( 105, 105, 98, 0.2);
+	background-image: url(../img/seccion1.png);
+	height: 600px;
+	position: relative;
+	top: 15px;
+
+	-webkit-box-shadow: -1px -10px 12px -3px rgba(0,0,0,0.75);
+	-moz-box-shadow: -1px -10px 12px -3px rgba(0,0,0,0.75);
+	box-shadow: -1px -10px 12px -3px rgba(0,0,0,0.75);
+}
+
+.seccion2{
+	padding: 15px;
+	background-color: rgba( 105, 105, 98, 0.2);
+	background-image: url(../img/seccion4.jpg);
+	background-size: 1500px 700px;
+	background-size: cover;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	height: 748px;
+	position: relative;
+}
+
+
+.titleSect1{
+	text-align: left;  
+	font-family: sans-serif;
+	text-align: center;
+	color: black; 
+	text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #acacac, 0 6px 1px rgba(0,0,0,0.1), 0 0 5px rgba(0,0,0,0.1), 0 1px 3px rgba(0,0,0,0.3), 0 3px 5px rgba(0,0,0,0.2), 0 5px 10px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.2), 0 20px 20px rgba(0,0,0,0.15);
+	max-width: 100%;
+	height: auto;
+}
+
+@media (max-width: 400px) {
+	.titleSect1{
+		font-size: 2.5em;
+	}
+	
+}
+
+@media (max-width: 250px) {
+	.titleSect1{
+		font-size: 1.5em;
+	}
+	
+}
+
+@media (max-width: 590px){
+	.titleSect2{
+		font-size: 2.9em;
+	}
+	
+}
+@media (max-width: 406px){
+	.titleSect2{
+		font-size: 1.7em;
+	}
+	
+}
+.textsection1{
+	font-size: 15px;
+	text-align: center;
+}
+.linesection1{
+	width: 70%;
+	position: center;
+	background-color: blue;
+}
+
+.imageresp{
+  max-width: 100%;
+  height: auto;
+}
+
+.sizeimage{
+	width: 170px;
+}
+.subtitulo2secc{
+	text-shadow: 2px black;
+}
+
+.titleSect2{
+	text-align: left;  
+	font-family: sans-serif;
+	text-align: center;
+	color: black; 
+	text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #acacac, 0 6px 1px rgba(0,0,0,0.1), 0 0 5px rgba(0,0,0,0.1), 0 1px 3px rgba(0,0,0,0.3), 0 3px 5px rgba(0,0,0,0.2), 0 5px 10px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.2), 0 20px 20px rgba(0,0,0,0.15);
+	max-width: 100%;
+	height: auto;
+}
+
+.formSec2{
+	 margin-top: 40px;
+	 text-shadow: 2px 2px black;
+	 margin: 6px solid black;
+	 border: 1px solid #0f102e;
+	 width: 400px;
+	 padding: 10px;
+	 background-color: rgba( 21, 21, 22,0.3);
+	 box-shadow: 1px 1px 2px 2px #28282a;
+	 position: relative;
+	 left:-25px;
+	 height: 500px !important;
+}
+
+@media (max-width: 768px) {
+	#pvslogo{
+		display: none;
+	}
+}
+@media (max-width: 418px){
+	.formSec2{
+		width:350px;
+
+	}
+	
+}
+
+@media (max-width: 361px){
+	.formSec2{
+		width:345px;
+		height: 550px;
+
+	}	
+}
+
+.formTexta{
+  width: 300px;
+  height: 120px !important;
+  button:30px;
+
+}
+@media (max-width: 361px){
+	.formTexta{
+		width:300px;
+		height: 120px !important;
+
+	}	
+}
+
+label{
+	color: white;
+}
+
+
+input{
+	width: 300px !important;
+}
+.buttonForm{
+	width: 150px !important;
+	position: relative;
+	left: 70px;
+
+
+}
+.imgSec2{
+	position: relative;
+	left: 150px;
+	bottom: 50px;
+}
+.iconsf{
+	font-size: 50px;
+	color: gray;
+}
+.iconsf:hover{
+	cursor: pointer !important;
+	color:  #1a2f7a;
+	transition:  margin-left 4s, color 1s;
+}
+.footerpvs{
+	height: 350px; 
+	background-color:  #e4e4e4;
+
+}
+.lineafoot{
+	width:50%;
+}
+.textfoot{
+	font-size: 0.9em;
+	text-shadow: 1px 1px  gray;
+
+}
