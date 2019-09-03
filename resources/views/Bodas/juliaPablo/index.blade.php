@@ -159,36 +159,18 @@
 	</section>
 	<!-- /Location-->
 
-	<!-- Galery -->
+	<!-- Galery  Código creado con cincopa.com-->
 	<section id="gallery">
-		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-			<ol class="carousel-indicators">
-				<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-				<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-				<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-			</ol>
-			<div class="carousel-inner">
-				<div class="carousel-item active">
-			    	<img src="/img/bodas/slider3.jpg" class="d-block w-100" alt="...">
-				</div>
-				<div class="carousel-item">
-				    <img src="/img/bodas/slider3.jpg" class="d-block w-100" alt="...">
-				</div>
-				<div class="carousel-item">
-				    <img src="/img/bodas/slider3.jpg" class="d-block w-100" alt="...">
-				</div>
-			</div>
-			<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-			    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-			    <span class="sr-only">Previous</span>
-			</a>
-			<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-			    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-			    <span class="sr-only">Next</span>
-			</a>
-		</div>
+		<div id="cp_widget_b1110436-488a-4f7a-b974-bcdce1232465">Cargando Galeria de Fotos ...</div><script type="text/javascript">
+		var cpo = []; cpo["_object"] ="cp_widget_b1110436-488a-4f7a-b974-bcdce1232465"; cpo["_fid"] = "AAEAgmuiKQrt";
+		var _cpmp = _cpmp || []; _cpmp.push(cpo);
+		(function() { var cp = document.createElement("script"); cp.type = "text/javascript";
+		cp.async = true; cp.src = "//www.cincopa.com/media-platform/runtime/libasync.js";
+		var c = document.getElementsByTagName("script")[0];
+		c.parentNode.insertBefore(cp, c); })(); </script><noscript><span>New Gallery 2019/9/3</span><span>Primer Baile</span><span>Fotografía tomada el día de la boda por StudioPhotos</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>width</span><span> 1300</span><span>height</span><span> 866</span><span>Indiscretos</span><span>Fotografía tomada el día de la boda por StudioPhotos</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>width</span><span> 626</span><span>height</span><span> 417</span><span>Disfrutando el aire libre</span><span>Fotografía tomada el día de la boda por StudioPhotos</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>width</span><span> 414</span><span>height</span><span> 400</span><span>Sesión de fotos</span><span>Fotografía tomada el día de la boda por StudioPhotos</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>width</span><span> 1023</span><span>height</span><span> 682</span><span>Unidos para siempre</span><span>Fotografía tomada el día de la boda por StudioPhotos</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>width</span><span> 1023</span><span>height</span><span> 682</span><span>Caminando al fin del mundo</span><span>Fotografía tomada el día de la boda por StudioPhotos</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>width</span><span> 1023</span><span>height</span><span> 682</span><span>Un nuevo hogar</span><span>Fotografía tomada el día de la boda por StudioPhotos</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>width</span><span> 1200</span><span>height</span><span> 801</span><span>Eligiendo a la siguente victima</span><span>Fotografía tomada el día de la boda por StudioPhotos</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>width</span><span> 1280</span><span>height</span><span> 960</span></noscript>
 	</section>
 	<!-- /Galery-->
+
 
 	<!--Footer -->
 	<footer id="footer">
