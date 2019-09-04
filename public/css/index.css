@@ -51,17 +51,19 @@ body{
 #history{
 	height: 100%;
 	background-color: #fff5ee;
-	font-family: 'Dancing Script', cursive;
+	/* font-family: 'Dancing Script', cursive;*/
+    font-family: 'Tangerine', cursive;
 
 }
 #history h2{
+	font-size: 50px;
 	    border-bottom: 1px solid black;
 	    border-radius: 90px;
 		
 }
 
 #textHistory{
-	font-size: 25px;
+	font-size: 40px;
 }
 
 #ubication{

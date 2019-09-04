@@ -42,7 +42,7 @@
 		        </a>
 		      </li>
 		      <li class="nav-item mr-4">
-		        <a class="nav-link" href="#gallery">
+		        <a class="nav-link" href="#" data-toggle="modal" data-target="#exampleModal">
 		        	<i class="far fa-images"></i>
 		        	Galeria de Fotos
 		    	</a>
@@ -90,7 +90,7 @@
 
 	<!-- History-->
 	<section id="history" class="text-center">
-		<div class="container-fluid ">
+		<div class="container-fluid mt-4">
 			<div class="row">
 				<div class="col-6 col-md-3">
 					<h2>Nuestra Historia</h2>
@@ -99,7 +99,7 @@
 					<h2>Faltan: 40 días</h2>
 				</div>
 			</div>
-			<div class="row">
+			<div class="row mt-5">
 				<div class="col-8 offset-2  text-justify">
 					<p id="textHistory">
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -129,8 +129,8 @@
 	<!-- Location-->
 	<section>
 		<div class="container" id="ubication">
-			<div class="row pb-4">
-				<div class="col text-center">
+			<div class="row mt-4">
+				<div class="col text-center mb-4">
 					<h1 id="titleUbication">Ubicación de la boda</h1>
 				</div>
 			</div>
@@ -142,7 +142,7 @@
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 					</p>
-					<img class="ubicationImg" src="/img/bodas/ubicacion.jpeg" height="150">
+					<img class="ubicationImg mt-4" src="/img/bodas/ubicacion.jpeg" height="150">
 				</div>
 				<div class="col-12 col-lg-6">
 					<h2>Ubicación de la fiesta</h2>
@@ -151,7 +151,7 @@
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 					</p>
-					<img class="ubicationImg" src="/img/bodas/ubicacion.jpeg" height="150">
+					<img class="ubicationImg mt-4" src="/img/bodas/ubicacion.jpeg" height="150">
 				</div>
 			</div>
 		</div>
@@ -159,15 +159,29 @@
 	</section>
 	<!-- /Location-->
 
-	<!-- Galery  Código creado con cincopa.com-->
+	<!-- Gallery  Código creado con cincopa.com-->
 	<section id="gallery">
-		<div id="cp_widget_b1110436-488a-4f7a-b974-bcdce1232465">Cargando Galeria de Fotos ...</div><script type="text/javascript">
-		var cpo = []; cpo["_object"] ="cp_widget_b1110436-488a-4f7a-b974-bcdce1232465"; cpo["_fid"] = "AAEAgmuiKQrt";
-		var _cpmp = _cpmp || []; _cpmp.push(cpo);
-		(function() { var cp = document.createElement("script"); cp.type = "text/javascript";
-		cp.async = true; cp.src = "//www.cincopa.com/media-platform/runtime/libasync.js";
-		var c = document.getElementsByTagName("script")[0];
-		c.parentNode.insertBefore(cp, c); })(); </script><noscript><span>New Gallery 2019/9/3</span><span>Primer Baile</span><span>Fotografía tomada el día de la boda por StudioPhotos</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>width</span><span> 1300</span><span>height</span><span> 866</span><span>Indiscretos</span><span>Fotografía tomada el día de la boda por StudioPhotos</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>width</span><span> 626</span><span>height</span><span> 417</span><span>Disfrutando el aire libre</span><span>Fotografía tomada el día de la boda por StudioPhotos</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>width</span><span> 414</span><span>height</span><span> 400</span><span>Sesión de fotos</span><span>Fotografía tomada el día de la boda por StudioPhotos</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>width</span><span> 1023</span><span>height</span><span> 682</span><span>Unidos para siempre</span><span>Fotografía tomada el día de la boda por StudioPhotos</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>width</span><span> 1023</span><span>height</span><span> 682</span><span>Caminando al fin del mundo</span><span>Fotografía tomada el día de la boda por StudioPhotos</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>width</span><span> 1023</span><span>height</span><span> 682</span><span>Un nuevo hogar</span><span>Fotografía tomada el día de la boda por StudioPhotos</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>width</span><span> 1200</span><span>height</span><span> 801</span><span>Eligiendo a la siguente victima</span><span>Fotografía tomada el día de la boda por StudioPhotos</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>width</span><span> 1280</span><span>height</span><span> 960</span></noscript>
+		<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  			<div class="modal-dialog" role="document">
+    			<div class="modal-content">
+      				<div class="modal-header">
+        				<h5 class="modal-title" id="exampleModalLabel">Galería de Fotos </h5>
+        					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          						<span aria-hidden="true">&times;</span>
+        					</button>
+      				</div>
+      				<div class="modal-body">
+        						<div id="cp_widget_b1110436-488a-4f7a-b974-bcdce1232465">Cargando Galeria de Fotos ...</div><script type="text/javascript">
+								var cpo = []; cpo["_object"] ="cp_widget_b1110436-488a-4f7a-b974-bcdce1232465"; cpo["_fid"] = "AAEAgmuiKQrt";
+								var _cpmp = _cpmp || []; _cpmp.push(cpo);
+								(function() { var cp = document.createElement("script"); cp.type = "text/javascript";
+								cp.async = true; cp.src = "//www.cincopa.com/media-platform/runtime/libasync.js";
+								var c = document.getElementsByTagName("script")[0];
+								c.parentNode.insertBefore(cp, c); })(); </script><noscript><span>New Gallery 2019/9/3</span><span>Primer Baile</span><span>Fotografía tomada el día de la boda por StudioPhotos</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>width</span><span> 1300</span><span>height</span><span> 866</span><span>Indiscretos</span><span>Fotografía tomada el día de la boda por StudioPhotos</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>width</span><span> 626</span><span>height</span><span> 417</span><span>Disfrutando el aire libre</span><span>Fotografía tomada el día de la boda por StudioPhotos</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>width</span><span> 414</span><span>height</span><span> 400</span><span>Sesión de fotos</span><span>Fotografía tomada el día de la boda por StudioPhotos</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>width</span><span> 1023</span><span>height</span><span> 682</span><span>Unidos para siempre</span><span>Fotografía tomada el día de la boda por StudioPhotos</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>width</span><span> 1023</span><span>height</span><span> 682</span><span>Caminando al fin del mundo</span><span>Fotografía tomada el día de la boda por StudioPhotos</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>width</span><span> 1023</span><span>height</span><span> 682</span><span>Un nuevo hogar</span><span>Fotografía tomada el día de la boda por StudioPhotos</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>width</span><span> 1200</span><span>height</span><span> 801</span><span>Eligiendo a la siguente victima</span><span>Fotografía tomada el día de la boda por StudioPhotos</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>width</span><span> 1280</span><span>height</span><span> 960</span></noscript>
+      				</div>
+    			</div>
+  			</div>
+		</div>
 	</section>
 	<!-- /Galery-->
 
