@@ -79,6 +79,10 @@ body{
 	height: 100%;
 }
 
+.modal{
+	width: 100%;
+}
+
 /*Footer */
 #footer{
 	background-color: black;
@@ -99,7 +103,7 @@ body{
 		height: 250px;
 	}
 }
-@media (min-width: 260px){
+@media (max-width: 260px){
 	.tituloInv h1{
 		font-size: 75px;
 	}
