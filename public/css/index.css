@@ -90,9 +90,24 @@ body{
 #footer ul li a{
 	color: #fff5ee;
 }
-
+#footer ul li a:hover{
+	color: cyan;
+	text-decoration: none;
+}
 @media (min-width: 1000px) {
 	.ubicationImg{
 		height: 250px;
 	}
 }
+@media (min-width: 260px){
+	.tituloInv h1{
+		font-size: 75px;
+	}
+	.tituloInv h2{
+		font-size: 55px;
+	}
+	.tituloInv h3{
+		font-size: 35px;
+	}
+}
+
