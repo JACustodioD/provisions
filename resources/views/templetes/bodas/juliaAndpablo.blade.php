@@ -5,7 +5,7 @@
 	<title>Invitación</title>
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 
-	<meta property="og:image" content="/img/bodas/carta.jpeg">
+	<meta property="og:image" content="/templetes/img/bodas/carta.jpeg">
 	<meta property="og:title" content="Julia & Pablo" />
   	<meta property="og:url" content="provisionssystems.com/invitations/JuliaAndPablo" />
   	<meta property="og:description" content="Acompañanos a celebrar nuestra boda. Te esperamos...">
@@ -15,7 +15,7 @@
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css?family=Tangerine&display=swap" rel="stylesheet"> 
 
- 	<link rel="stylesheet" type="text/css" href="/css/index.css">
+ 	<link rel="stylesheet" type="text/css" href="/templetes/css/index.css">
 </head>
 <body data-spy="scroll" data-target="#navbar" data-offset="57">
 	
@@ -64,13 +64,13 @@
 		<div id="carousel" class="carousel slide carousel-fade" data-ride="carousel" data-pause="false">
   			<div class="carousel-inner">
 	    		<div class="carousel-item active">
-	      			<img src="/img/bodas/slider3.jpg" class="d-block w-100" alt="...">
+	      			<img src="/templetes/img/bodas/slider3.jpg" class="d-block w-100" alt="...">
 	    		</div>
 			    <div class="carousel-item">
-			      <img src="/img/bodas/slider2.png" class="d-block w-100" alt="...">
+			      <img src="/templetes/img/bodas/slider2.png" class="d-block w-100" alt="...">
 			    </div>
 			    <div class="carousel-item">
-			      <img src="/img/bodas/slider1.jpg" class="d-block w-100" alt="...">
+			      <img src="/templetes/img/bodas/slider1.jpg" class="d-block w-100" alt="...">
 			    </div>
   			</div>
   			<div class="overlay text-center">
@@ -118,7 +118,7 @@
 			</div>
 			<div class="row">
 				<div class="col-12">
-					<img src="/img/bodas/anillos.png" height="150">
+					<img src="/templetes/img/bodas/anillos.png" height="150">
 				</div>
 			</div>
 		</div>
@@ -142,7 +142,7 @@
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 					</p>
-					<img class="ubicationImg mt-4" src="/img/bodas/ubicacion.jpeg" height="150">
+					<img class="ubicationImg mt-4" src="/templetes/img/bodas/ubicacion.jpeg" height="150">
 				</div>
 				<div class="col-12 col-lg-6">
 					<h2>Ubicación de la fiesta</h2>
@@ -151,7 +151,7 @@
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 					</p>
-					<img class="ubicationImg mt-4" src="/img/bodas/ubicacion.jpeg" height="150">
+					<img class="ubicationImg mt-4" src="/templetes/img/bodas/ubicacion.jpeg" height="150">
 				</div>
 			</div>
 		</div>

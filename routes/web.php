@@ -11,14 +11,22 @@
 |
 */
 
-Route::get('/', function () {
-    return view('PVS.index');
-});
 
-Route::get('/invitations/JuliaAndPablo',function(){
-	return view('Bodas.juliaPablo.index');
+
+Route::get('/', function () {
+    return view('PVS.index'); // Raíz pagina de pvs
 });
 
 Route::get('/invitations',function(){
-	return view('welcome');
+	return view('PVS.invitations'); // Página principal para las invitaciones
 });
+
+
+Route::get('/invitations/JuliaAndPablo',function(){
+	return view('templetes.bodas.juliaAndpablo'); // templete para la boda Julia and pablo
+});
+
+Route::get('/invitations/provisionsDinner',function(){
+	return view('templetes.laborales.provisions'); // tempelete para fiesta laboral
+});
+
