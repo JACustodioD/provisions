@@ -14,11 +14,11 @@
 
 
 Route::get('/', function () {
-    return view('PVS.index'); // Raíz pagina de pvs
+    return view('pvs.index'); // Raíz pagina de pvs
 });
 
 Route::get('/invitations',function(){
-	return view('PVS.invitations'); // Página principal para las invitaciones
+	return view('pvs.invitations'); // Página principal para las invitaciones
 });
 
 
