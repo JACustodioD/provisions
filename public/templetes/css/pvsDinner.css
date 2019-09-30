@@ -1,6 +1,5 @@
 
 body{
-	background-color: #fff5ee;
     /*font-family: 'Nanum Gothic', sans-serif; */
     /*font-family: 'Dosis', sans-serif; */
     /*font-family: 'News Cycle', sans-serif; */
@@ -60,30 +59,30 @@ body{
 	font-size: 20px;
 }
 #logo{
-	width: 100%;
+	width: 100%;  
 }
 
-/*FOOTER */
+
+/*Footer */
 #footer{
 	background-color: black;
-	color: #fff5ee;
+	color: #0084df;
+	font-size: 16px;
+	font-family: 'Poppins', sans-serif;
 }
 #footer ul{
 	list-style: none;
 }
-#footer ul li a{
-	color: #fff5ee;
-}
 #footer ul li a:hover{
-	color: cyan;
+	color: white;
 	text-decoration: none;
 }
-/* END FOOTER */
+
 
 /* MEDIAS */
-@media (max-width: 280px){
+@media (max-width: 780px){
 	.tituloInv h1{
-		font-size: 65px;
+		font-size: 70px;
 	}
 	.tituloInv h2{
 		font-size: 45px;
