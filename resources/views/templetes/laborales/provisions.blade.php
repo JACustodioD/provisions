@@ -5,7 +5,7 @@
     <meta charset="UTF-8"> 
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 
-    <meta property="og:image" content="/templetes/img/reuniones/portada3.jpeg">
+    <meta property="og:image" content="/templetes/img/reuniones/portada3.jpg">
     <meta property="og:title" content="Cena de Navidad" />
     <meta property="og:url" content="provisionssystems.com/invitations/provisionsDinner" />
     <meta property="og:description" content="Porque la Navidad se trata de celebrar juntos.  Acompañanos a la cena navideña de tu empresa">
@@ -64,21 +64,11 @@
           <img id="logo" src="/img/PVS1.png" width="600">
         </div>
         <div class="col-12 col-md-6">
-          <h1>ProVisions Systems </h1>
+          <h1>En ProVisions Systems</h1>
           <p class="text-justify">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+             Nos sentimos muy complacidos de poder celebrar junto a sus distinguidos empleados, un año más de vida y labor de la compañía, por lo que nos sentimos orgullosos de contar con trabajadores leales como usted, asimismo, deseamos contar con su presencia en la gran cena de gala, motivo de condecoración, que se dará el día <b>18 de Diciembre</b> en punto de las <b>19:00 horas</b> en <b>Oficina centran ubicada en ...... </b>. Agradecemos su permanencia con nosotros y esperamos contar con su asistencia.
           </p>
+          
         </div>
       </div>
     </div>
@@ -86,55 +76,72 @@
   <!-- /-->
 
   <!-- -->
+  <hr>
   <footer id="footer">
     <div class="container ">
-      <div class="row">
+      <div class="row  text-center">
+        <div class="col-12" id="footerLogo">
+          <img src="/img/PVS1.png">
+          <label>Sitio creado por <b>PROVISIONS SYSTEMS</b>&reg; </label>
+        </div>
+      </div>
+      <div class="row text-justify mt-5 ">
+        <div class="col-12 text-center  mb-4">
+          <h2>ProVisions Systems SA de CV</h2>
+        </div>
         <div class="col-12 col-md-4">
-          <label>Invitaciones:</label>
+          <h6>Productos</h6>
+          <ul>
+            <li>Producto 1</li>
+            <li>Producto 2</li>
+            <li>Producto 3</li>
+            <li>Producto 4</li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-4">
+          <h6>Servicios</h6>
+          <ul>
+            <li>Servicio 1</li>
+            <li>Servicio 2</li>
+            <li>Servicio 3</li>
+            <li>Servicio 4</li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-4">
+          <h6>Contacto</h6>
           <ul>
             <li>
               <a href="#">
                 <i class="fab fa-facebook"></i>
-                facebook.com/ProVisionsSystems
+                facebook.com/Empresa
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fab fa-instagram"></i>
+                instagram/Empresa  
               </a>
             </li>
             <li>
               <a href="#">
                 <i class="fas fa-globe-americas"></i>
-                provisionssystems.com
+                Empresa.com  
               </a>
-            </li>
+             </li>
             <li>
-              <a href="#">
+              <a href="">
                 <i class="fab fa-twitter-square"></i>
-                twitter.com/ProVisionsSyst
+                twitter.com/Empresa    
               </a>
             </li>
           </ul>
         </div>
-        <div class="col-12 col-md-4 offset-md-4">
-          <label>Organizacion:</label>
-          <ul>
-            <li>
-              <a href="#">
-                <i class="fab fa-facebook"></i>
-                 facebook.com/ProVisionsSystems
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                 <i class="fas fa-globe-americas"></i>
-                provisionssystems.com
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <i class="fab fa-twitter-square"></i>
-                twitter.com/ProVisionsSyst
-              </a>
-            </li>
-          </ul>
-        </div>   
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-12" id="copyright">
+          &copy; Todos los derechos reservados
+        </div>
       </div>
     </div>
   </footer>
