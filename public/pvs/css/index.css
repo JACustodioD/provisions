@@ -1,10 +1,22 @@
 /*INDEX PVS*/
 
 /*MENU PRINCIPAL*/
-.navbar{
-	height: 75%;
-	background-color: aquamarine !important;
+.menu{
+	padding-top:0;
+	background-color: crimson;
 }
-.contenido{
-	background-color: blueviolet;
+.head-icon{
+	font-size: 1em;
+	transition: 1s;
+	color: #0065de;
+}
+.head-icon:hover{
+color: black;
+cursor: pointer;
+}
+
+#contact-link{
+	background-color: #0065de;
+	height: 50%;
+	color: white;
 }
