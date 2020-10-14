@@ -26,11 +26,15 @@
       <div class="row">
         <div class="col-xs-8 col-md-3">
           <div class="site-logo">
-            <a href="">
+            <a href="" class="navbar-brand">
               <img src="/pvs/img/logopvs.png" alt="logo" width="200">
             </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
           </div>
         </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <div class="col-xs-4 col-md-9">
           <nav class="site-nav">
             <div class="contact">
@@ -69,6 +73,7 @@
         </div>
       </div>
     </div>
+  </div>
   </div>
 </header>
 <script src="/pvs/js/all.js"></script>  
