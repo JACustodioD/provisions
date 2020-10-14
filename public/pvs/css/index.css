@@ -1,22 +1,94 @@
 /*INDEX PVS*/
-
+ body {
+	font-family: 'Lato', sans-serif;
+ }
 /*MENU PRINCIPAL*/
-.menu{
-	padding-top:0;
-	background-color: crimson;
+.site-logo{
+	display: table;
+	height: 5.625rem;
+	color: white;
+	font-size: 2.1875rem;
+	font-weight: 500;
+	line-height: 1.6875rem
 }
-.head-icon{
-	font-size: 1em;
-	transition: 1s;
-	color: #0065de;
+.site-logo a{
+	color: white;
+	display: table-cell;
+	vertical-align: middle;
 }
-.head-icon:hover{
-color: black;
-cursor: pointer;
+.col-md-9 {
+	width: 75%;
+}
+.site-nav{
+	float: right;
+	position: relative;
+	z-index: 1000;
+}
+.contact{
+	text-align: right;
+	margin-top: 10px;
+
+}
+.contact > a > svg >{
+    margin:10px !important;
+}
+.site-nav ul.nav-off-canvas {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+#exito{
+	padding-right: 0;
+}
+.site-nav ul.nav-off-canvas{
+	height: auto !important;
+}
+.site-nav ul.nav-off-canvas > li {
+    margin: 0;
+    padding: 0;
+    float: left;
+    display: table;
+    height: 0.625rem;
+    position: relative;
+}
+.site-nav ul.nav-off-canvas > li > a {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 2;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0 18px;
+    letter-spacing: 0.03125rem;
+	position: relative;
+}
+nav ul{
+	list-style: none;
+}
+li{
+	list-style:none;
+}
+.contact-icon{
+	color: #0064de;
+	margin: 3px 0 0 3px;
 }
 
-#contact-link{
-	background-color: #0065de;
-	height: 50%;
-	color: white;
+a{
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+	list-style:none;
+}
+.blue-btn{
+	background: linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+	background-color:#0064de;
+	border-radius: 4px;
+	border: 1px solid #057fd0;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-size: 15px;
+	padding: 4px 12px;
+	text-decoration: none;
 }
