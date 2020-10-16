@@ -12,69 +12,66 @@
 
   <meta name="keywords" content="ProVisions, provisions, ProVisions Systems, provisions systems, desarrollo,software">
 
-  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="
+  
+  
+  sheet"> 
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <link rel="stylesheet" href="/pvs/css/index.css">
+  <link rel="stylesheet" href="/pvs/css/responsiveindex.css">
   <link rel="shortcut icon" type="image/x-icon" href="/pvs/img/logopvs.png">
   
 </head>
 <body>
 <header class="start-header">
-  <div class="container-fluid contenido">
     <div class="container">
-      <div class="row">
-        <div class="col-xs-8 col-md-3">
-          <div class="site-logo">
-            <a href="" class="navbar-brand">
-              <img src="/pvs/img/logopvs.png" alt="logo" width="200">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          </div>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="row row-logo">
+          <a class="navbar-brand margin-brand" href="#">
+            <img src="/pvs/img/logopvs.png" alt="" width="200">      
+          </a>
         </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <div class="col-xs-4 col-md-9">
-          <nav class="site-nav">
-            <div class="contact">
-              <a href="">
-                <i class="fas fa-phone contact-icon"></i>
-              </a>
-              55 3161 7135
-              <a href="">
-                <i class="fab fa-facebook-square contact-icon"></i>
-              </a>
-              Provisions Systems
-              <button class="blue-btn">
-                Solicitar presupuesto
-              </button>
+         <div class="container-menu ml-auto">
+            <div class="row banner-contact">
+              <div class="col-md-12 d-none d-md-block">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><i class="fas fa-phone"></i>55 3161 7135 </a>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fab fa-facebook-square"></i>Provisions Systems</a>
+                  </li>
+                  <li class="nav-item mt-1">
+                    <a class="nav-link blue-btn" href="">Contáctanos</a>
+                  </li>
+                </li>
+              </ul>
             </div>
-            <ul class="nav-off-canvas">
-              <li>
-                <a href="">
-                  Desarrollo a la medida
-                </a>
-              </li>
-              <li>
-                <a href="">
-                  ¿Por qué Provisions?
-                </a>
-              </li>
-              <li>
-              </li>
-              <li>
-                <a href="" id="exito">
-                  Casos de éxito
-                </a>
-              </li>
-            </ul>
-          </nav>
+            </div> 
+            <div class="row nav-text">
+              <div class="col-md-12">     
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Desarrollo a la medida</a>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">¿Por qué Provisions?</a>
+                    </li>
+                    <li class="nav-item exito">
+                      <a class="nav-link" href="#">Casos de éxito</a>
+                    </li>
+                  </li>
+                </ul>
+              </div>
+            </div>
         </div>
-      </div>
+        </div>
+      </nav>
     </div>
-  </div>
-  </div>
+
 </header>
 <script src="/pvs/js/all.js"></script>  
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
