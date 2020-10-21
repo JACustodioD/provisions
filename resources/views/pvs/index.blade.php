@@ -20,59 +20,68 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <link rel="stylesheet" href="/pvs/css/index.css">
   <link rel="stylesheet" href="/pvs/css/responsiveindex.css">
+  <link rel="stylesheet" href="/pvs/css/hover.css">
   <link rel="shortcut icon" type="image/x-icon" href="/pvs/img/logopvs.png">
   
 </head>
 <body>
-<header class="start-header">
-    <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="row row-logo">
-          <a class="navbar-brand margin-brand" href="#">
-            <img src="/pvs/img/logopvs.png" alt="" width="200">      
-          </a>
-        </div>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-         <div class="container-menu ml-auto">
-            <div class="row banner-contact">
-              <div class="col-md-12 d-none d-md-block">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link" href="#"><i class="fas fa-phone"></i>55 3161 7135 </a>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fab fa-facebook-square"></i>Provisions Systems</a>
-                  </li>
-                  <li class="nav-item mt-1">
-                    <a class="nav-link blue-btn" href="">Contáctanos</a>
-                  </li>
-                </li>
-              </ul>
-            </div>
-            </div> 
-            <div class="row nav-text">
-              <div class="col-md-12">     
+<section class="start-banner banner-back">
+  <header class="start-header">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg text-menu">
+          <div class="row row-logo">
+            <a class="navbar-brand margin-brand" href="#">
+              <img src="/pvs/img/logopvs.png" alt="" width="200">      
+            </a>
+          </div>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-ellipsis-h" id="main-color"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="container-menu ml-auto">
+              <div class="row banner-contact">
+                <div class="col-md-12 d-none d-md-block">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Desarrollo a la medida</a>
+                    <a class="nav-link text-menu" href="#"><i class="fas fa-phone icon-menu"></i> <span>55 3161 7135 </span> </a>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">¿Por qué Provisions?</a>
+                      <a class="nav-link text-menu" href="#"><i class="fab fa-facebook-square icon-menu"></i> <span>Provisions Systems</span> </a>
                     </li>
-                    <li class="nav-item exito">
-                      <a class="nav-link" href="#">Casos de éxito</a>
+                    <li class="nav-item mt-1">
+                      <a class="nav-link blue-btn hvr-push" href="">Contáctanos</a>
                     </li>
                   </li>
                 </ul>
               </div>
-            </div>
-        </div>
-        </div>
-      </nav>
-    </div>
+              </div> 
+              <div class="row nav-text">
+                <div class="col-md-12">     
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link hvr-underline-from-center text-menu" href="#">Desarrollo a la medida</a>
+                      <li class="nav-item">
+                        <a class="nav-link hvr-underline-from-center text-menu" href="#">¿Por qué Provisions?</a>
+                      </li>
+                      <li class="nav-item exito">
+                        <a class="nav-link hvr-underline-from-center text-menu" href="#">Casos de éxito</a>
+                      </li>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+          </div>
+          </div>
+        </nav>
+      </div>
+  </header>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12">
 
-</header>
+      </div>
+    </div>
+  </div>
+</section>
 <script src="/pvs/js/all.js"></script>  
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>

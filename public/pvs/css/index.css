@@ -3,7 +3,9 @@
 	font-family: 'Lato', sans-serif;
  }
 /*MENU PRINCIPAL*/
-
+#main-color{
+	background-color: white;
+}
 .container-menu{
 	float: right;
 }
@@ -11,8 +13,20 @@
 	margin-left: 0px;
 }
 
+.text-menu{
+	color: white;
+}
 .site-logo{
 	width: 100%;
+}
+a:hover{
+	color: white;
+}
+a i .icon-menu:hover{
+	color: #0064de !important ;
+}
+a span{
+	cursor: default;
 }
 .blue-btn{
 	background: linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
@@ -24,4 +38,13 @@
 	color: #ffffff !important;
 	text-decoration: none;
 	font-size: 15px;
+}
+
+
+/*BANNER PRINCIPAL*/
+.banner-back{
+	background-image: url("/pvs/img/banner-image.jpeg");
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
 }
