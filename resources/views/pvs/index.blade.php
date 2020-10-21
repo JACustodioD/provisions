@@ -74,11 +74,33 @@
         </nav>
       </div>
   </header>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-12">
-
-      </div>
+  <div class="container-fluid banner-letter">
+    <div class="container  text-center">
+      <div class="row banner-caption">
+        <div class="col-md-12 ">
+          <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-interval="10000">
+                <h1 class="d-block w-100">Profesionales, para software profesional.</h1>
+              </div>
+              <div class="carousel-item" data-interval="2000">
+                <h1 class="d-block w-100">Provisions</h1>
+              </div>
+              <div class="carousel-item">
+                <h1 class="d-block w-100">systems</h1>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>  
+       </div>
     </div>
   </div>
 </section>

@@ -48,3 +48,12 @@ a span{
 	background-size: cover;
 	background-position: center;
 }
+
+.banner-caption{
+	padding:50px 0 0 0;
+}
+.banner-caption-h1{
+	color: white;
+	font-size: 70px;
+
+}
