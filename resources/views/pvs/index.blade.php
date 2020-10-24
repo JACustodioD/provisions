@@ -80,24 +80,21 @@
         <div class="col-md-12 ">
           <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
-              <div class="carousel-item active" data-interval="10000">
-                <h1 class="d-block w-100">Profesionales, para software profesional.</h1>
+              <div class="carousel-item active" data-interval="1000">
+                <h1 class="d-block w-100 banner-caption-h1">Profesionales, para software profesional</h1>
+                <p class="banner-caption-p">Nuestro compromiso es crear soluciones</p>
+                <a href="" class="blue-btn hvr-push">Contáctanos ahora</a>
               </div>
               <div class="carousel-item" data-interval="2000">
-                <h1 class="d-block w-100">Provisions</h1>
+                <div class="d-flex">
+                  <img src="/pvs/img/slider1.png" class="d-block w-100" alt="...">
+                  <h1 class="d-block w-100 banner-caption-h1">Aplicaciones web</h1>
+                </div>
               </div>
               <div class="carousel-item">
-                <h1 class="d-block w-100">systems</h1>
+                <h1 class="d-block w-100 banner-caption-h1">systems</h1>
               </div>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
           </div>
         </div>  
        </div>

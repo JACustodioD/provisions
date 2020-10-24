@@ -55,5 +55,10 @@ a span{
 .banner-caption-h1{
 	color: white;
 	font-size: 70px;
+	text-shadow: -1px -1px 1px  #757575;
+}
+.banner-caption-p{
+	color:white;
+	text-shadow: -1px -1px 1px  #757575;
 
 }
