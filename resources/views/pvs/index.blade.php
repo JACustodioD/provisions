@@ -80,19 +80,34 @@
         <div class="col-md-12 ">
           <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
-              <div class="carousel-item active" data-interval="1000">
-                <h1 class="d-block w-100 banner-caption-h1">Profesionales, para software profesional</h1>
+              <div class="carousel-item active" data-interval="6000">
+                <h1 class="d-block w-100 banner-capt-h1">Profesionales, para software profesional</h1>
                 <p class="banner-caption-p">Nuestro compromiso es crear soluciones</p>
                 <a href="" class="blue-btn hvr-push">Contáctanos ahora</a>
               </div>
-              <div class="carousel-item" data-interval="2000">
-                <div class="d-flex">
-                  <img src="/pvs/img/slider1.png" class="d-block w-100" alt="...">
-                  <h1 class="d-block w-100 banner-caption-h1">Aplicaciones web</h1>
+              <div class="carousel-item" data-interval="6000">
+                <div class="row">
+                  <div class="col-md-6 d-md-block">
+                     <img src="/pvs/img/slider111.png" class="d-md-block w-100" alt="slider">
+                   </div>
+                   <div class="col-md-6">
+                    <h1 class="d-block w-100 banner-caption-h1">Aplicaciones web</h1>
+                    <p class="banner-caption-p">Tenemos la solución que tu empresa necesita.</p>
+                    <a href="" class="blue-btn hvr-push">Contáctanos ahora</a>
+                  </div>
                 </div>
               </div>
-              <div class="carousel-item">
-                <h1 class="d-block w-100 banner-caption-h1">systems</h1>
+              <div class="carousel-item" data-interval="6000">
+                <div class="row">
+                  <div class="col-md-6 d-flex justify-content-center">
+                     <img src="/pvs/img/idea.png" class="d-md-block" alt="slider1" height="450">
+                   </div>
+                   <div class="col-md-6">
+                    <h1 class="d-block w-100 banner-caption-h1">¿Tienes algúna idea?</h1>
+                    <p class="banner-caption-p">Nosotros la hacemos realidad.</p>
+                    <a href="" class="blue-btn hvr-push">Contáctanos ahora</a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

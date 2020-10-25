@@ -22,9 +22,7 @@
 a:hover{
 	color: white;
 }
-a i .icon-menu:hover{
-	color: #0064de !important ;
-}
+
 a span{
 	cursor: default;
 }
@@ -45,14 +43,20 @@ a span{
 .banner-back{
 	background-image: url("/pvs/img/banner-image.jpeg");
 	height: 100vh;
+	width: 100%;
 	background-size: cover;
 	background-position: center;
 }
 
 .banner-caption{
-	padding:50px 0 0 0;
+	padding:90px 0 0 0;
 }
 .banner-caption-h1{
+	color: white;
+	font-size: 50px;
+	text-shadow: -1px -1px 1px  #757575;
+}
+.banner-capt-h1{
 	color: white;
 	font-size: 70px;
 	text-shadow: -1px -1px 1px  #757575;
