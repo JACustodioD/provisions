@@ -25,7 +25,22 @@
   
 </head>
 <body>
-<section class="start-banner banner-back">
+
+<section class="start-banner banner-back shadow-sm p-3 mb-5 bg-white rounded">
+  <!--ENCABEZADO RESPONSIVO-->
+<section class="start-banner-res d-xs-inline d-md-none">
+  <div class="container-fluid">
+    <div class="row d-flex justify-content-around">
+      <div class="col-xs-6 mt-2">
+        <a class="text-menu" href="#"><i class="fas fa-phone icon-menu"></i> <span class="text-head-res"> 55 3161 7135 </span> </a>
+      </div>
+      <div class="col-xs-6 mt-2">
+        <a class="text-menu" href="#"><i class="fab fa-facebook-square icon-menu"></i> <span class="text-head-res">Provisions Systems</span> </a>
+      </div>
+    </div>
+  </div>
+</section>
+<!--FIN ENCABEZADO RESPONSIVO-->
   <header class="start-header">
       <div class="container">
         <nav class="navbar navbar-expand-lg text-menu">
@@ -86,9 +101,9 @@
                 <a href="" class="blue-btn hvr-push">Contáctanos ahora</a>
               </div>
               <div class="carousel-item" data-interval="6000">
-                <div class="row">
+                <div class="row d-flex align-items-center">
                   <div class="col-md-6 d-md-block">
-                     <img src="/pvs/img/slider111.png" class="d-md-block w-100" alt="slider">
+                     <img src="/pvs/img/slider111.png" class="d-none d-md-block w-100" alt="slider">
                    </div>
                    <div class="col-md-6">
                     <h1 class="d-block w-100 banner-caption-h1">Aplicaciones web</h1>
@@ -98,9 +113,9 @@
                 </div>
               </div>
               <div class="carousel-item" data-interval="6000">
-                <div class="row">
+                <div class="row d-flex align-items-center">
                   <div class="col-md-6 d-flex justify-content-center">
-                     <img src="/pvs/img/idea.png" class="d-md-block" alt="slider1" height="450">
+                     <img src="/pvs/img/idea.png" class="d-none d-md-block" alt="slider1" height="450">
                    </div>
                    <div class="col-md-6">
                     <h1 class="d-block w-100 banner-caption-h1">¿Tienes algúna idea?</h1>
@@ -116,7 +131,28 @@
     </div>
   </div>
 </section>
+
+<section class="section-develop shadow-sm p-3 mb-5 bg-white rounded">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h1 class="develop-h1 animate">Creamos soluciones a partir de sus necesidades</h1>
+        <hr style="width: 25%; background-color: #a5d936; height: 3px;">
+        <p class="develop-text">En Provisions, lo mas importante es escucharte para así entender
+          cual es la necesidad de software que tu empresa necesita.
+          <span>Encontrarás la atención que te mereces y la solución que estas buscando</span>.
+          Somos pequeños emprendedores  con ganas de ayudarte a crecer.
+          Acercate a nosotros, encontraremos la solución.
+        </p>
+      </div>
+      <div class="col-md-6">
+        <img src="/pvs/img/desarrollo1.png" class="animate__backInRight" alt="">
+      </div>
+    </div>
+  </div>
+</section>
 <script src="/pvs/js/all.js"></script>  
+<script src="/pvs/js/efectos.js"></script> 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>

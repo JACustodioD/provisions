@@ -3,6 +3,10 @@
        width: 100%;
        text-align: center !important;
    }
-  
-  
+  .banner-capt-h1, .banner-caption-h1{
+      font-size: 35px 
+  }
+  .text-head-res{
+      font-size: 12px;
+  }
 }
