@@ -92,14 +92,23 @@ hr{
 	opacity: 0;
 	transition: all 0.7s;
 }
-.show-effect{
-	animation: show-effect 2s;
+.show-effect-h1, .show-effect-img{
+	animation: show-effect-h1 2s;
+	animation: show-effect-img 2s;
 }
-@keyframes show-effect{
+@keyframes show-effect-h1{
 	0% {
 		transform: translateX(60px);
 	}
 	100% {
+		transform: translateX(0);
+	}
+}
+@keyframes show-effect-img{
+	0%{
+		transform: translateX(-60px)
+	}
+	100%{
 		transform: translateX(0);
 	}
 }

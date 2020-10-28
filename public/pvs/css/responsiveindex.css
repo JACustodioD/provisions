@@ -1,12 +1,57 @@
+@media screen and (max-width:415px){
+    .banner-capt-h1, .banner-caption-h1{
+        font-size: 45px !important
+    }
+    hr{
+        margin-bottom: 30px;
+    }
+    .develop-h1{
+        font-size: 33px !important;
+        text-align: center;
+    }
+    .develop-text{
+        line-height: 35px;
+        font-size: 20px !important;
+      }
+}
+@media screen and (max-width:360px){
+    .banner-capt-h1, .banner-caption-h1{
+        font-size: 40px !important
+    }
+    hr{
+        margin-bottom: 30px;
+    }
+    .develop-h1{
+        font-size: 28px !important;
+        text-align: center;
+    }
+    .develop-text{
+        line-height: 30px;
+        font-size: 17px !important;
+      }
+}
+
 @media screen and (max-width:320px){
    .container-menu{
        width: 100%;
        text-align: center !important;
    }
   .banner-capt-h1, .banner-caption-h1{
-      font-size: 35px 
+      font-size: 30px !important
   }
   .text-head-res{
       font-size: 12px;
   }
+  .develop-h1{
+      font-size: 30px;
+      text-align: center;
+  }
+  .develop-text{
+    line-height: 25px;
+	font-size: 15px;
+  }
+  hr{
+      margin-bottom: 30px;
+  }
 }
+

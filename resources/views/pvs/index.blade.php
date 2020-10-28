@@ -135,7 +135,7 @@
 <section class="section-develop shadow-sm p-3 mb-5 bg-white rounded">
   <div class="container">
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-md-6 col-xs-12 col-sm-12">
         <h1 class="develop-h1 animate">Creamos soluciones a partir de sus necesidades</h1>
         <hr style="width: 25%; background-color: #a5d936; height: 3px;">
         <p class="develop-text">En Provisions, lo mas importante es escucharte para así entender
@@ -146,17 +146,15 @@
         </p>
       </div>
       <div class="col-md-6">
-        <img src="/pvs/img/desarrollo1.png" class="animate__backInRight" alt="">
+        <img src="/pvs/img/desarrollo1.png" class="animate d-none d-md-block" alt="">
       </div>
     </div>
   </div>
 </section>
-<script src="/pvs/js/all.js"></script>  
-<script src="/pvs/js/efectos.js"></script> 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-</body>
-</html>
+<script src="/pvs/js/all.js"></script>  
+<script src="/pvs/js/efectos.js"></script> 
 </body>
 </html>
