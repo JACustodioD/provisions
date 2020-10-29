@@ -28,10 +28,10 @@ function toShowScroll2(){
     let scrollTop = document.documentElement.scrollTop;
     for (let i = 0; i < animate_benefits.length; i++) {
         let heightAnimateb = animate_benefits[i].offsetTop;
-        if (heightAnimateb +900 < scrollTop) {
+        if (heightAnimateb +1500 < scrollTop) {
             animate_benefits[i].style.opacity = 1
-            animate_benefits[i].classList.add("show-effect-benefits-t")
             animate_benefits[i].classList.add("show-effect-benefits")
+            animate_benefits[1].classList.add("show-effect-benefits-h")
         }
         
     }

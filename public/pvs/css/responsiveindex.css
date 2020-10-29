@@ -13,6 +13,9 @@
         line-height: 35px;
         font-size: 20px !important;
       }
+    .benefits-text-p{
+          text-align: justify;
+    }
 }
 @media screen and (max-width:360px){
     .banner-capt-h1, .banner-caption-h1{
@@ -29,6 +32,9 @@
         line-height: 30px;
         font-size: 17px !important;
       }
+    .benefits-text-p{
+        text-align: justify;
+  }
 }
 
 @media screen and (max-width:320px){
@@ -53,5 +59,8 @@
   hr{
       margin-bottom: 30px;
   }
+  .benefits-text-p{
+     text-align: justify;
+}
 }
 

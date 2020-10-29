@@ -131,12 +131,12 @@ hr{
 	transition: all 0.7s;
 }
 
-.show-effect-h1, .show-effect-img, .show-effect-h1-1, .show-effect-img-1, .show-effect-benefits-t, .show-effect-benefits {
+.show-effect-h1, .show-effect-img, .show-effect-h1-1, .show-effect-img-1, .show-effect-benefits-h, .show-effect-benefits {
 	animation: show-effect-h1 2s;
 	animation: show-effect-img 2s;
 	animation: show-effect-h1-1 2s;
 	animation: show-effect-img-1 2s;
-	animation: show-effect-benefits-t 2s;
+	animation: show-effect-benefits-h 2s;
 	animation: show-effect-benefits 2s;
 }
 
@@ -151,7 +151,7 @@ hr{
 }
 @keyframes show-effect-img{
 	0%{
-		transform: translateY(80px)
+		transform: translateY(80px);
 	}
 	100%{
 		transform: translateY(0);
@@ -167,23 +167,23 @@ hr{
 }
 @keyframes show-effect-img-1{
 	0%{
-		transform: translateY(80px)
+		transform: translateY(80px);
 	}
 	100%{
 		transform: translateY(0);
 	}
 }
-@keyframes show-effect-benefits-t{
-	0% {
-		transform: translateX(60px);
+@keyframes show-effect-benefits{
+	0%{
+		transform: translateX(80px);
 	}
-	100% {
+	100%{
 		transform: translateX(0);
 	}
 }
-@keyframes show-effect-benefits{
+@keyframes show-effect-benefits-h{
 	0%{
-		transform: translateY(80px)
+		transform: translateY(80px);
 	}
 	100%{
 		transform: translateY(0);
