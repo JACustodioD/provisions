@@ -35,17 +35,18 @@ a span{
 	cursor: pointer;
 	color: #ffffff !important;
 	text-decoration: none;
-	font-size: 15px;
+	font-size: 20px;
 }
 
 
 /*BANNER PRINCIPAL*/
 .banner-back{
 	background-image: url("/pvs/img/banner-image.jpeg");
-	height: 100vh;
+	height: 715px;
 	width: 100%;
 	background-size: cover;
 	background-position: center;
+	background-attachment: fixed;
 }
 
 .banner-caption{
@@ -86,16 +87,60 @@ a span{
 hr{
 	margin-bottom: 3.75rem;
 }
+.section-develop-two{
+	margin-top: 5rem;
+}
+/*SECCION DE BENEFICIOS*/
 
+.section-benefits{
+	background: linear-gradient(to right, rgb(37, 44, 54) 0%, rgb(37, 44, 54) 100%) !important;
+	color: white;
+}
+.work-h1{
+	font-size: 40px;
+}
+.work-h3{
+	line-height: 35px;
+    font-size: 25px;
+}
+.benefits-space{
+	text-align: right;
+}
+.benefits-space span{
+	float: right;
+}
+.benefits-icon{
+	font-size: 90px;
+	margin-left: 20px;
+}
+.benefits-icon:hover{
+	cursor: pointer;
+	color:  #0064de;
+	transition: 1s;
+}
+.benefits-text{
+	color:  #0064de !important;
+}
+.benefits-text-p{
+	text-align:right;
+	margin-left: 25px;
+}
 /*ANIMACIONES*/
-.animate{
+.animate, .animate1, .animate_benefits{
 	opacity: 0;
 	transition: all 0.7s;
 }
-.show-effect-h1, .show-effect-img{
+
+.show-effect-h1, .show-effect-img, .show-effect-h1-1, .show-effect-img-1, .show-effect-benefits-t, .show-effect-benefits {
 	animation: show-effect-h1 2s;
 	animation: show-effect-img 2s;
+	animation: show-effect-h1-1 2s;
+	animation: show-effect-img-1 2s;
+	animation: show-effect-benefits-t 2s;
+	animation: show-effect-benefits 2s;
 }
+
+
 @keyframes show-effect-h1{
 	0% {
 		transform: translateX(60px);
@@ -106,9 +151,41 @@ hr{
 }
 @keyframes show-effect-img{
 	0%{
-		transform: translateX(-60px)
+		transform: translateY(80px)
 	}
 	100%{
+		transform: translateY(0);
+	}
+}
+@keyframes show-effect-h1-1{
+	0% {
+		transform: translateX(60px);
+	}
+	100% {
 		transform: translateX(0);
+	}
+}
+@keyframes show-effect-img-1{
+	0%{
+		transform: translateY(80px)
+	}
+	100%{
+		transform: translateY(0);
+	}
+}
+@keyframes show-effect-benefits-t{
+	0% {
+		transform: translateX(60px);
+	}
+	100% {
+		transform: translateX(0);
+	}
+}
+@keyframes show-effect-benefits{
+	0%{
+		transform: translateY(80px)
+	}
+	100%{
+		transform: translateY(0);
 	}
 }

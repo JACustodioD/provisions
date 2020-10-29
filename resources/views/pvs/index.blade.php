@@ -98,7 +98,7 @@
               <div class="carousel-item active" data-interval="6000">
                 <h1 class="d-block w-100 banner-capt-h1">Profesionales, para software profesional</h1>
                 <p class="banner-caption-p">Nuestro compromiso es crear soluciones</p>
-                <a href="" class="blue-btn hvr-push">Contáctanos ahora</a>
+                <a href="" class="nav-link blue-btn hvr-push">Contáctanos ahora</a>
               </div>
               <div class="carousel-item" data-interval="6000">
                 <div class="row d-flex align-items-center">
@@ -108,7 +108,7 @@
                    <div class="col-md-6">
                     <h1 class="d-block w-100 banner-caption-h1">Aplicaciones web</h1>
                     <p class="banner-caption-p">Tenemos la solución que tu empresa necesita.</p>
-                    <a href="" class="blue-btn hvr-push">Contáctanos ahora</a>
+                    <a href="" class="nav-link blue-btn hvr-push">Contáctanos ahora</a>
                   </div>
                 </div>
               </div>
@@ -120,7 +120,7 @@
                    <div class="col-md-6">
                     <h1 class="d-block w-100 banner-caption-h1">¿Tienes algúna idea?</h1>
                     <p class="banner-caption-p">Nosotros la hacemos realidad.</p>
-                    <a href="" class="blue-btn hvr-push">Contáctanos ahora</a>
+                    <a href="" class="nav-link blue-btn hvr-push">Contáctanos ahora</a>
                   </div>
                 </div>
               </div>
@@ -132,7 +132,7 @@
   </div>
 </section>
 
-<section class="section-develop shadow-sm p-3 mb-5 bg-white rounded">
+<section class="section-develop shadow-sm p-3 mb-1 bg-white rounded">
   <div class="container">
     <div class="row">
       <div class="col-md-6 col-xs-12 col-sm-12">
@@ -144,9 +144,67 @@
           Somos pequeños emprendedores  con ganas de ayudarte a crecer.
           Acercate a nosotros, encontraremos la solución.
         </p>
+        <a href="" class="nav-link blue-btn hvr-push">Contáctanos ahora</a>
       </div>
       <div class="col-md-6">
         <img src="/pvs/img/desarrollo1.png" class="animate d-none d-md-block" alt="">
+      </div>
+    </div>
+    <div class="section-develop-two">
+    <div class="row">
+      <div class="col-md-6">
+        <img src="/pvs/img/desarrollo2.png" class="animate1 d-none d-md-block" height="500">
+      </div>
+      <div class="col-md-6 col-xs-12 col-sm-12">
+        <h1 class="develop-h1 animate1">Desarrollamos a la medida</h1>
+          <hr style="width: 25%; background-color: #a5d936; height: 3px;">
+          <p class="develop-text">En Provisions, <span>trabajamos con metodologías que agilicen los procesos</span>
+            de acuerdo a lo que realizamos, así nuestros clientes estarán en 
+            conjunto con nosotros visualizando el avance de su proyecto. Nuestro compromiso es 
+            hacer realidad lo que necesita en su empresa.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section-benefits shadow-sm p-3 mb-5 bg-white">
+  <div class="container">
+      <div class="row mt-5">
+        <div class="col-md-12">
+          <h1 class="text-center work-h1">Trabajar con Provisions</h1>
+          <hr style="width: 25%; background-color:  #a5d936; height: 3px; margin-bottom: 30px;">
+        </div>
+        <div class="col-md-12">
+          <h3 class="text-center work-h3">Nuestro compromiso son nuestros clientes, por eso brindamos 
+            los mejores beneficios.</h3>
+      </div>
+    </div>
+    <div class="row mt-5">
+      <div class="col-md-6">
+        <img class="animate_benefits" src="/pvs/img/beneficios.png" alt="">
+      </div>
+      <div class="col-md-6">
+        <div class="mb-5 benefits-space">
+         <span><i class="fas fa-heart benefits-icon animate_benefits "></i></span> 
+          <h4 class="benefits-text">Atención personalizada</h4>
+          <p class="benefits-text-p">Sabemos la atención que te mereces, por eso nuestro equipo te la brinda.</p>
+        </div>
+        <div class="mb-5 benefits-space">
+          <span><i class="fas fa-medal benefits-icon animate_benefits"></i></span> 
+           <h4 class="benefits-text">Calidad</h4>
+           <p class="benefits-text-p">Nos aseguramos que nuestros procesos sean ágiles para nuestros productos.</p>
+         </div>
+         <div class="mb-5 benefits-space">
+          <span><i class="fas fa-layer-group benefits-icon animate_benefits"></i></span> 
+           <h4 class="benefits-text">Servicios</h4>
+           <p class="benefits-text-p">Te brindamos un servicio personalizado y a la medida, como lo requieres.</p>
+         </div>
+         <div class="mb-5 benefits-space">
+          <span><i class="fas fa-question-circle benefits-icon animate_benefits"></i></span> 
+           <h4 class="benefits-text">Asesorías</h4>
+           <p class="benefits-text-p">Te orientamos en todo el desarrollo de tu proyecto, en cualquier momento.</p>
+         </div>
       </div>
     </div>
   </div>
