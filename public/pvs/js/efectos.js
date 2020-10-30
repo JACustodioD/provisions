@@ -2,17 +2,28 @@ let animate = document.querySelectorAll(".animate");
 let animate1 = document.querySelectorAll(".animate1");
 let animate_benefits = document.querySelectorAll(".animate_benefits");
 
-function toShowScroll(){
+
+function showElements(elements, height, class1, class2) {
     let scrollTop = document.documentElement.scrollTop;
-    for(var i =0; i < animate.length; i++){
-        let heightAnimate = animate[i].offsetTop;
-        if (heightAnimate +200 < scrollTop) {
-            animate[i].style.opacity = 1
-            animate[i].classList.add("show-effect-h1");
-            animate[1].classList.add("show-effect-img");
+
+    for (let i = 0; i < elements.length; i++) {
+        let heightAnimate = elements[i].offsetTop;
+        let className = i == 0 ? class1 : class2 ;
+
+        if (heightAnimate + height < scrollTop) {
+            elements[i].style.opacity = 1
+            elements[i].classList.add(className);
         }
     }
 }
+
+
+window.addEventListener('wheel', function(){showElements(animate, 200, 'show-effect-h1', 'show-effect-img')});
+window.addEventListener('wheel', function(){showElements(animate1, 600, 'show-effect-img', 'show-effect-h1')});
+window.addEventListener('wheel', function(){showElements(animate_benefits, 1400, 'show-effect-h1', 'show-effect-img')});
+
+
+/*
 function toShowScroll1(){
     let scrollTop = document.documentElement.scrollTop;
     for(var i =0; i < animate1.length; i++){
@@ -39,3 +50,5 @@ function toShowScroll2(){
 window.addEventListener('scroll', toShowScroll);
 window.addEventListener('scroll', toShowScroll1);
 window.addEventListener('scroll', toShowScroll2);
+
+*/
