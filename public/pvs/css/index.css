@@ -37,7 +37,17 @@ a span{
 	text-decoration: none;
 	font-size: 20px;
 }
-
+.green-btn{
+	background: linear-gradient(to bottom, #cdff62 5%, #89af36 100%);
+	background-color: #a5d936;
+	border-radius: 4px;
+	border: 1px solid #8bb62e
+	padding:4px 12px;
+	cursor: pointer;
+	color: #ffffff !important;
+	text-decoration: none;
+	font-size: 20px;
+}
 
 /*BANNER PRINCIPAL*/
 .banner-back{
