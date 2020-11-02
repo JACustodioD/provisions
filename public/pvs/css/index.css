@@ -102,7 +102,7 @@ hr{
 }
 /*SECCION DE BENEFICIOS*/
 
-.section-benefits{
+.section-benefits, .frases-section{
 	background: linear-gradient(to right, rgb(37, 44, 54) 0%, rgb(37, 44, 54) 100%) !important;
 	color: white;
 }
@@ -135,8 +135,21 @@ hr{
 	text-align:right;
 	margin-left: 25px;
 }
+/*SECCION DE FRASES*/
+.frases-section{
+	height: 300px;
+}
+.carousel-indicators{
+	position: relative !important;
+	top: 200px !important;
+}
+.t-frases strong{
+	color: #a5d936;
+	font-size: 1em;
+}
+
 /*ANIMACIONES*/
-.animate, .animate1, .animate_benefits{
+.animate, .animate1, .animate_benefits, .animate_project{
 	opacity: 0;
 	transition: all 0.7s;
 }
@@ -168,48 +181,3 @@ hr{
 		transform: translateX(0);
 	}
 }
-
-/*
-.show-effect-h1, .show-effect-img, .show-effect-h1-1, .show-effect-img-1, .show-effect-benefits-t, .show-effect-benefits {
-	animation: show-effect-h1 2s;
-	animation: show-effect-img 2s;
-	animation: show-effect-h1-1 2s;
-	animation: show-effect-img-1 2s;
-	animation: show-effect-benefits-t 2s;
-	animation: show-effect-benefits 2s;
-}
-
-@keyframes show-effect-h1-1{
-	0% {
-		transform: translateX(60px);
-	}
-	100% {
-		transform: translateX(0);
-	}
-}
-@keyframes show-effect-img-1{
-	0%{
-		transform: translateY(80px)
-	}
-	100%{
-		transform: translateY(0);
-	}
-}
-@keyframes show-effect-benefits-t{
-	0% {
-		transform: translateX(60px);
-	}
-	100% {
-		transform: translateX(0);
-	}
-}
-@keyframes show-effect-benefits{
-	0%{
-		transform: translateY(80px)
-	}
-	100%{
-		transform: translateY(0);
-	}
-}
-
-*/

@@ -46,7 +46,7 @@
         <nav class="navbar navbar-expand-lg text-menu">
           <div class="row row-logo">
             <a class="navbar-brand margin-brand" href="#">
-              <img src="/pvs/img/logopvs.png" alt="" width="200">      
+              <img src="/pvs/img/logopvs.png" alt="" width="200" class="logo">      
             </a>
           </div>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -146,8 +146,8 @@
         </p>
         
       </div>
-      <div class="col-md-6">
-        <img src="/pvs/img/desarrollo1.png" class="animate d-none d-md-block" alt="">
+      <div class="col-md-6 text-center">
+        <img src="/pvs/img/desarrollo1.png" class="image-develop animate d-md-block" alt="">
       </div>
     </div>
     <div class="section-develop-two">
@@ -163,8 +163,15 @@
             conjunto con nosotros visualizando el avance de su proyecto. Nuestro compromiso es 
             hacer realidad lo que necesita en su empresa.
           </p>
+          <div class="col-md-6 text-center">
+            <img src="/pvs/img/desarrollo2.png" class=" image-develop animate1 d-md-none">
+          </div>
+          <div class="text-center">
           <a href="" class="nav-link blue-btn hvr-push">Contáctanos ahora</a>
         </div>
+        </div>
+       
+        
       </div>
     </div>
   </div>
@@ -214,7 +221,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <h1 class="text-center work-h1">¿Tienes algúna idea?</h1>
+        <h1 class="text-center work-h1 animate_project">¿Tienes algúna idea?</h1>
         <hr style="width: 25%; background-color:  #a5d936; height: 3px; margin-bottom: 30px;">
       </div>
     </div>
@@ -226,6 +233,56 @@
       </div>
     </div>
   </div>
+</section>
+<section class="frases-section shadow-sm p-3 mb-5 bg-white">
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 text-center">
+      <h1 class="h1-ideology">Nuestra ideología es importante</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+        </ol>
+        <div class="carousel-inner text-center">
+          <div class="carousel-item active">
+            <h2 class=" t-frases d-block w-100"> <strong>“</strong> No hemos sido los primeros, pero seremos los mejores. <strong>”</strong></h2>
+            <h5>-Steve Jobs.</h5>
+          </div>
+          <div class="carousel-item">
+            <h2 class="t-frases d-block w-100"> <strong>“</strong> Muchas cosas son improbables, solo unas pocas son imposibles. <strong>”</strong></h2>
+            <h5>-Elon Musk.</h5>
+          </div>
+          <div class="carousel-item">
+            <h2 class="t-frases d-block w-100"> <strong>“</strong> Ama tu visión y tus sueños como si fueran los hijos de tu alma, los planos de tus logros finales. <strong>”</strong></h2>
+            <h5>-Napoleon Hill.</h5>
+          </div>
+          <div class="carousel-item">
+            <h2 class="t-frases d-block w-100"> <strong>“</strong> Precio es lo que pagas, valor es lo que recibes. <strong>”</strong></h2>
+            <h5>-Warren Buffet.</h5>
+          </div>
+          <div class="carousel-item">
+            <h2 class="t-frases d-block w-100"> <strong>“</strong> Los ganadores no tienen miedo de perder, los perdedores sí lo tienen. Fracasar es parte del proceso del éxito. <strong>”</strong></h2>
+            <h5>-Robert Kiyosaki.</h5>
+          </div>
+        </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<section class="footer-cont">
+  <footer class="container">
+
+  </footer>
 </section>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>

@@ -16,6 +16,9 @@
     .benefits-text-p{
           text-align: justify;
     }
+    .image-develop{
+        height: 300px;
+    }
 }
 @media screen and (max-width:360px){
     .banner-capt-h1, .banner-caption-h1{
@@ -34,6 +37,18 @@
       }
     .benefits-text-p{
         text-align: justify;
+  }
+  .image-develop{
+      height: 200px;
+  }
+  .frases-section{
+    height: 600px;
+  }
+  .carousel-indicators{
+      top: 300px !important;
+  }
+  .t-frases{
+      font-size: 1.5em;
   }
 }
 
@@ -60,7 +75,25 @@
       margin-bottom: 30px;
   }
   .benefits-text-p{
-     text-align: justify;
+     text-align: right
 }
+  .benefits-text{
+      font-size: 18px !important;
+  }
+  .benefits-icon{
+      margin-bottom: 90px;
+  }
+  .work-h1, .h1-ideology{
+      font-size: 30px;
+  }
+  .frases-section{
+    height: 400px;
+  }
+  .work-h3, .t-frases{
+      font-size: 20px;
+  }
+  .logo{
+      width: 175px;
+  }
 }
 
