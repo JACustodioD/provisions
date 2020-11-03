@@ -280,10 +280,34 @@
 </div>
 </section>
 <section class="footer-cont">
-  <footer class="container">
-
+    <footer class="container">
+      <div class="row  d-flex align-items-center">
+        <div class="col-md-2 mt-3">
+          <img src="/pvs/img/logopvs.png" alt="" width="150">
+        </div>
+        <div class="col-md-9 mt-3 ">
+          <ul class="mr-auto" id="foot-ul">
+            <li>
+              <a href="#"><i class="fas fa-circle mr-1" style="color: #0064de;"></i>Desarrollo a la medida </a>
+            </li>
+            <li>
+              <a href="#"><i class="fas fa-circle mr-1" style="color: #0064de;"></i>Nosotros</a>
+            </li>
+            <li >
+              <a href="#"><i class="fas fa-circle mr-1" style="color: #0064de;"></i>Contácto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+      <div class="col-md-12 d-flex justify-content-end">
+        <small class="p-2"><i class="fas fa-kaaba" style="color: #a5d936;"></i>Provisions Systems S.A. de C.V.</small>
+        <small class="p-2"><a class="text-menu" href="#"><i class="fab fa-facebook-square icon-menu" style="color: #a5d936;"></i> <span class="text-head-res">Provisions Systems</span> </a></small>
+    </div>
+   </div>
   </footer>
 </section>
+<span class="botoncito"><i class="fas fa-angle-double-up"></i></span>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>

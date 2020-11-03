@@ -41,7 +41,7 @@ a span{
 	background: linear-gradient(to bottom, #cdff62 5%, #89af36 100%);
 	background-color: #a5d936;
 	border-radius: 4px;
-	border: 1px solid #8bb62e
+	border: 1px solid #8bb62e;
 	padding:4px 12px;
 	cursor: pointer;
 	color: #ffffff !important;
@@ -102,7 +102,7 @@ hr{
 }
 /*SECCION DE BENEFICIOS*/
 
-.section-benefits, .frases-section{
+.section-benefits, .frases-section, .footer-cont{
 	background: linear-gradient(to right, rgb(37, 44, 54) 0%, rgb(37, 44, 54) 100%) !important;
 	color: white;
 }
@@ -148,6 +148,37 @@ hr{
 	font-size: 1em;
 }
 
+/*SECCION FOOTER*/
+#foot-ul{
+	margin-bottom: 0 !important;
+}
+#foot-ul li{
+	display: inline;
+}
+#foot-ul li a {
+	text-decoration: none;
+	padding: 20px 20px 0 20px;
+	color: white;
+}
+dl, ol, ul{
+	margin-top: 0 !important;
+}
+.botoncito {
+    display: none;
+    text-align: center;
+    align-items: center !important;
+    padding:10px;
+    background: transparent;
+    font-size:20px;
+    background-color:  #0064de;
+    color: white;
+    cursor:pointer;
+    position: fixed;
+    bottom:0px;
+    right:0px;
+    width: 60px;
+    height: 60px;
+}
 /*ANIMACIONES*/
 .animate, .animate1, .animate_benefits, .animate_project{
 	opacity: 0;
