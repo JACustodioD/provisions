@@ -19,9 +19,9 @@ function showElements(elements, height, class1, class2) {
 }
 
 
-window.addEventListener('wheel', function(){showElements(animate, 100, 'show-effect-h1', 'show-effect-img')});
-window.addEventListener('wheel', function(){showElements(animate1, 600, 'show-effect-img', 'show-effect-h1')});
-window.addEventListener('wheel', function(){showElements(animate_benefits, 1100, 'show-effect-h1', 'show-effect-img')});
-window.addEventListener('wheel', function(){showElements(animate_project, 1800, 'show-effect-h1')});
+window.addEventListener('scroll', function(){showElements(animate, 100, 'show-effect-h1', 'show-effect-img')});
+window.addEventListener('scroll', function(){showElements(animate1, 600, 'show-effect-img', 'show-effect-h1')});
+window.addEventListener('scroll', function(){showElements(animate_benefits, 1100, 'show-effect-h1', 'show-effect-img')});
+window.addEventListener('scroll', function(){showElements(animate_project, 1800, 'show-effect-h1')});
 
 
