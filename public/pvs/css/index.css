@@ -166,18 +166,26 @@ dl, ol, ul{
 .botoncito{
     display: none;
     text-align: center;
-    padding:10px;
+	border-radius: 12.5rem;
     background: transparent;
     font-size:20px;
-    background-color:  #0064de;
+	background-color: #142834;
+	box-shadow: 0 0 0.9375rem rgba(2, 3, 3, 0.19);
+	line-height: 3.125rem;
     color: white;
     cursor:pointer;
     position: fixed;
-    bottom:0px;
-    right:0px;
-    width: 60px;
-    height: 60px;
+	margin: 0;
+	padding: 0;
+	bottom: 1.875rem;
+	right: 1.875rem;
+	height: 3.125rem;
+	width: 3.125rem;
 }
+
+
+
+
 /*ANIMACIONES*/
 .animate, .animate1, .animate_benefits, .animate_project{
 	opacity: 0;
