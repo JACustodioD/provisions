@@ -163,10 +163,9 @@ hr{
 dl, ol, ul{
 	margin-top: 0 !important;
 }
-.botoncito {
+.botoncito{
     display: none;
     text-align: center;
-    align-items: center !important;
     padding:10px;
     background: transparent;
     font-size:20px;
