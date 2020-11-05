@@ -135,6 +135,26 @@ hr{
 	text-align:right;
 	margin-left: 25px;
 }
+
+/*SECCION SERVICIOS*/
+.services{
+	background-image: url("/pvs/img/servicios4.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 700px;
+}
+.text-services{
+	font-size: 1.2em;
+}
+.services2{
+	background-image: url("/pvs/img/servicios2.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 700px;
+}
+
 /*SECCION DE FRASES*/
 .frases-section{
 	height: 300px;

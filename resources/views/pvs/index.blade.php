@@ -176,7 +176,7 @@
     </div>
   </div>
 </section>
-<section class="section-benefits shadow-sm p-3 mb-5 bg-white">
+<section class="section-benefits shadow-sm p-3  bg-white">
   <div class="container">
       <div class="row mt-5">
         <div class="col-md-12">
@@ -217,22 +217,38 @@
     </div>
   </div>
 </section>
-<section class="have-idea shadow-sm p-3 mb-5 bg-white">
+<section class="services shadow-sm bg-white ">
   <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <h1 class="text-center work-h1 animate_project">Servicios</h1>
+    <div class="row d-flex justify-content-end text-center" >
+      <div class="col-md-6 p-5" style="background-color:white; height:700px;">
+        <h1 class=" work-h1 animate_project">Aplicaciones web y software a la medida</h1>
         <hr style="width: 25%; background-color: #a5d936; height: 3px; margin-bottom: 30px;">
+        <img src="/pvs/img/icono.png" alt="icono" height = "150">
+        <p class="text-services mt-4">Desarrollamos software  totalmente personalizado y a la medaida en su empresa,
+          para simplificar y automatizar el manejo de toda su información.
+          Con ello sus procesos serán más fáciles y eficientes
+        </p>
+        <a href="" class="nav-link green-btn hvr-push">Solicitar más información</a>
       </div>
     </div>
-    <div class="row">
-      <div class="col-md-12 text-center">
-        <h3 class=" work-h3">Acercate a nosotros, haremos realidad esa idea que tienes en mente,
-          con nuestro equipo de trabajo.</h3>
-          <a href="" class="nav-link green-btn hvr-push">Contáctanos ahora</a>
+ </div>
+</section>
+<section class="services2 shadow-sm bg-white ">
+  <div class="container">
+    <div class="row d-flex justify-content-start text-center" >
+      <div class="col-md-6 p-5" style="background-color:white; height:700px;">
+        <h1 class=" work-h1 animate_project">Landing pages y posicionamiento web</h1>
+        <hr style="width: 25%; background-color: #0064de; height: 3px; margin-bottom: 30px;">
+        <img src="/pvs/img/icono2.png" alt="icono" height = "150">
+        <p class="text-services mt-4">No es suficiente tener un software que automatice tus procesos.
+          El siguiente paso es atraer clientes y mostrar especificamente tus productos.
+          Todo ello es posible con una Landing Page y con un buen posicionamiento web SEO-SEM.
+          En Provisions lo hacemos realidad.
+        </p>
+        <a href="" class="nav-link blue-btn hvr-push">Solicitar más información</a>
       </div>
     </div>
-  </div>
+ </div>
 </section>
 <section class="frases-section shadow-sm p-3 mb-5 bg-white">
 <div class="container">
