@@ -1,8 +1,8 @@
+  window.addEventListener('scroll', function(){
 
-      $(window).scroll(function() {
-        if ($("#sticky-menu").offset().top > 56) {
-            $("#menu").addClass("bg-inverse");
-        } else {
-            $("#sticky-menu").removeClass("bg-inverse");
-        }
-      });
+    if($(window).scrollTop() > 10) {
+      $(".start-header").attr("id",'sticky-menu');
+    } else {
+      $(".start-header").removeAttr("id");
+    }
+  });

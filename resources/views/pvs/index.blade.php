@@ -16,7 +16,6 @@
   
   
   sheet"> 
-  <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <link rel="stylesheet" href="/pvs/css/index.css">
   <link rel="stylesheet" href="/pvs/css/responsiveindex.css">
@@ -40,7 +39,7 @@
   </div>
 </section>
 <!--FIN ENCABEZADO RESPONSIVO-->
-  <header class="start-header" id="sticky-menu">
+  <header class="start-header sticky-top" >
       <div class="container">
         <nav class="navbar navbar-expand-lg text-menu " >
           <div class="row row-logo">
@@ -347,10 +346,10 @@
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-<script src="/pvs/js/sticky.js"></script>  
 <script src="/pvs/js/all.js"></script>  
 <script src="/pvs/js/efectos.js"></script> 
 <script src="/pvs/js/jquery.js"></script> 
 <script src="/pvs/js/boton.js"></script>
+<script src="/pvs/js/sticky.js"></script>  
 </body>
 </html>
