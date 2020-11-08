@@ -48,6 +48,11 @@ a span{
 	text-decoration: none;
 	font-size: 20px;
 }
+#sticky-menu{
+    background: linear-gradient(135deg, rgba(26, 31, 38) 0%, rgba(9, 12, 15) 100%);
+	transition: all 1s ease;
+
+}
 
 /*BANNER PRINCIPAL*/
 .banner-back{
@@ -102,7 +107,7 @@ hr{
 }
 /*SECCION DE BENEFICIOS*/
 
-.section-benefits, .frases-section, .footer-cont{
+.section-benefits, .idea-section, .footer-cont{
 	background: linear-gradient(to right, rgb(37, 44, 54) 0%, rgb(37, 44, 54) 100%) !important;
 	color: white;
 }
@@ -155,6 +160,9 @@ hr{
 	height: 700px;
 }
 
+
+
+
 /*SECCION DE FRASES*/
 .frases-section{
 	height: 300px;
@@ -163,8 +171,11 @@ hr{
 	position: relative !important;
 	top: 200px !important;
 }
+.carousel-indicators li{
+	background-color:#0064de;
+}
 .t-frases strong{
-	color: #a5d936;
+	color: #0064de;
 	font-size: 1em;
 }
 
@@ -207,7 +218,7 @@ dl, ol, ul{
 
 
 /*ANIMACIONES*/
-.animate, .animate1, .animate_benefits, .animate_project{
+.animate, .animate1, .animate_benefits, .animate_project, .animate_services{
 	opacity: 0;
 	transition: all 0.7s;
 }
@@ -233,7 +244,7 @@ dl, ol, ul{
 
 @keyframes show-effect-img{
 	0%{
-		transform: translateX(80px)
+		transform: translateX(60px)
 	}
 	100%{
 		transform: translateX(0);

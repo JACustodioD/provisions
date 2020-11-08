@@ -25,8 +25,7 @@
   
 </head>
 <body>
-
-<section class="start-banner banner-back shadow-sm p-3 mb-5 bg-white rounded">
+<section class=" banner-back shadow-sm p-3 mb-5 bg-white rounded" style="padding: 0 !important;">
   <!--ENCABEZADO RESPONSIVO-->
 <section class="start-banner-res d-xs-inline d-md-none">
   <div class="container-fluid">
@@ -41,9 +40,9 @@
   </div>
 </section>
 <!--FIN ENCABEZADO RESPONSIVO-->
-  <header class="start-header">
+  <header class="start-header" id="sticky-menu">
       <div class="container">
-        <nav class="navbar navbar-expand-lg text-menu">
+        <nav class="navbar navbar-expand-lg text-menu " >
           <div class="row row-logo">
             <a class="navbar-brand margin-brand" href="#">
               <img src="/pvs/img/logopvs.png" alt="" width="200" class="logo">      
@@ -63,7 +62,7 @@
                       <a class="nav-link text-menu" href="#"><i class="fab fa-facebook-square icon-menu"></i> <span>Provisions Systems</span> </a>
                     </li>
                     <li class="nav-item mt-1">
-                      <a class="nav-link blue-btn hvr-push" href="">Contáctanos</a>
+                      <a class="nav-link blue-btn hvr-push"  style="font-size: 15px !important;" href="">Contáctanos</a>
                     </li>
                   </li>
                 </ul>
@@ -131,7 +130,6 @@
     </div>
   </div>
 </section>
-
 <section class="section-develop shadow-sm p-3 mb-1 bg-white rounded">
   <div class="container">
     <div class="row">
@@ -147,7 +145,7 @@
         
       </div>
       <div class="col-md-6 text-center">
-        <img src="/pvs/img/desarrollo1.png" class="image-develop animate d-md-block" alt="">
+        <img src="/pvs/img/desarrollo1.png" class="image-develop animate d-md-block"  height="500">
       </div>
     </div>
     <div class="section-develop-two">
@@ -233,11 +231,11 @@
     </div>
  </div>
 </section>
-<section class="services2 shadow-sm bg-white ">
+<section class="services2 shadow-sm bg-white">
   <div class="container">
     <div class="row d-flex justify-content-start text-center" >
       <div class="col-md-6 p-5" style="background-color:white; height:700px;">
-        <h1 class=" work-h1 animate_project">Landing pages y posicionamiento web</h1>
+        <h1 class=" work-h1 animate_services">Landing pages y posicionamiento web</h1>
         <hr style="width: 25%; background-color: #0064de; height: 3px; margin-bottom: 30px;">
         <img src="/pvs/img/icono2.png" alt="icono" height = "150">
         <p class="text-services mt-4">No es suficiente tener un software que automatice tus procesos.
@@ -250,7 +248,26 @@
     </div>
  </div>
 </section>
-<section class="frases-section shadow-sm p-3 mb-5 bg-white">
+<section class="idea-section shadow-sm p-3 mb-5 bg-white">
+  <div class="container text-center mt-5 mb-5">
+    <div class="row">
+      <div class="col-md-12">
+        <h1>¿Tienes algúna idea?</h1>
+        <hr style="width: 25%; background-color: #a5d936; height: 3px;">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <h4>Si tienes en mente algún proyecto, acercate a nosotros, te ayudaremos a hacerlo realidad
+          con nuestro equipo de trabajo.
+        </h4>
+        <a href="" class="nav-link green-btn hvr-push">Contáctanos ahora</a>
+      </div>
+    </div>
+  </div>
+  
+</section>
+<section class="frases-section shadow-sm p-3  bg-white">
 <div class="container">
   <div class="row">
     <div class="col-md-12 text-center">
@@ -330,6 +347,7 @@
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="/pvs/js/sticky.js"></script>  
 <script src="/pvs/js/all.js"></script>  
 <script src="/pvs/js/efectos.js"></script> 
 <script src="/pvs/js/jquery.js"></script> 
