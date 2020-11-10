@@ -2,10 +2,11 @@
     .banner-capt-h1, .banner-caption-h1{
         font-size: 45px !important
     }
+    
     hr{
         margin-bottom: 30px;
     }
-    .develop-h1{
+    .develop-h1, .h1-ideology, .work-h1{
         font-size: 33px !important;
         text-align: center;
     }
@@ -13,46 +14,123 @@
         line-height: 35px;
         font-size: 20px !important;
       }
-    .benefits-text-p{
+    .benefits-text-p, .text-services{
           text-align: justify;
     }
+    .text-services{
+        line-height: 35px;
+    }
+    .work-h3, .h4-idea{
+        font-size: 20px;
+        line-height: 35px;
+    }
+    
     .image-develop{
         height: 300px;
+    }
+    .services-padding{
+        padding: 3rem 30px 30px 30px !important;
+     }
+     .services-padding2{
+         padding-top: 1rem !important;
+     }
+     .t-frases{
+        font-size: 1.3em;
+        line-height: 35px !important;
+     }
+     .frases-section{
+        height: 400px;
+    }
+    .foot-ul{
+         display: block !important;
+         color: white !important;
+    }
+    .footer-cont{
+        text-align: center;
+    }
+    .footer-text{
+        text-align: left !important;
+        line-height: 35px;
     }
 }
 @media screen and (max-width:360px){
     .banner-capt-h1, .banner-caption-h1{
         font-size: 40px !important
     }
+    .banner-caption{
+        padding: 300px 0 0 0;;
+    }
     hr{
         margin-bottom: 30px;
     }
-    .develop-h1{
-        font-size: 28px !important;
+    .develop-h1, .h1-ideology, .work-h1{
+        font-size: 30px !important;
         text-align: center;
     }
-    .develop-text{
+    .work-h3, .h4-idea{
+        font-size: 20px;
+        line-height: 35px;
+    }
+    
+    .develop-text, .text-services{
         line-height: 30px;
         font-size: 17px !important;
+        text-align: justify;
       }
     .benefits-text-p{
         text-align: justify;
-  }
-  .image-develop{
+    }
+    .benefits-icon{
+        margin-bottom: 90px;
+    }
+    .services-padding{
+       padding: 30px !important;
+    }
+    .text-services{
+        line-height: 30px;
+    }
+    .services{
+        margin-top: 2.75rem;
+        height: 650px;
+    }
+
+    .image-develop{
       height: 200px;
+    }
+    .frases-section{
+    height: 400px;
+    }
+    .carousel-indicators{
+        top: 250px !important;
+    }
+ 
+    .t-frases{
+      font-size: 1.3em;
+      line-height: 35px !important;
   }
-  .frases-section{
-    height: 600px;
-  }
-  .carousel-indicators{
-      top: 300px !important;
-  }
-  .t-frases{
-      font-size: 1.5em;
-  }
+  .foot-ul{
+    display: block !important;
+    color: white !important;
+ }
+ .footer-cont{
+    text-align: center;
+ }
+.footer-text{
+    text-align: left !important;
+    line-height: 35px;
+ }
 }
 
 @media screen and (max-width:320px){
+    .banner-letter{
+        height: 400px;
+    }
+    .banner-caption{
+        padding: 300px 0 0 0;;
+    }
+    section{
+        padding: 25px !important;
+    }
    .container-menu{
        width: 100%;
        text-align: center !important;
@@ -63,19 +141,35 @@
   .text-head-res{
       font-size: 12px;
   }
-  .develop-h1{
-      font-size: 30px;
+  .develop-h1, .work-h1, .h1-ideology{
+      font-size: 25px !important;
       text-align: center;
   }
-  .develop-text{
-    line-height: 25px;
+  .develop-text, .text-services, .blue-btn, .green-btn, .h4-idea{
+    line-height: 35px;
 	font-size: 15px;
   }
+  .text-services{
+    text-align: justify;
+  }
+ 
+  .services, .services2{
+      padding: 0 !important;
+      height: 800px;
+  }
+  .back-services{
+      height: 100% !important;
+  }
+ 
+  .services{
+      margin-top: 0;
+  }
+  
   hr{
       margin-bottom: 30px;
   }
   .benefits-text-p{
-     text-align: right
+     text-align: right;
 }
   .benefits-text{
       font-size: 18px !important;
@@ -83,17 +177,32 @@
   .benefits-icon{
       margin-bottom: 90px;
   }
-  .work-h1, .h1-ideology{
+  .h1-ideology{
       font-size: 30px;
+  }
+  .work-h1{
+      font-size: 25px;
   }
   .frases-section{
     height: 400px;
   }
   .work-h3, .t-frases{
       font-size: 20px;
+      line-height:30px ;
   }
   .logo{
       width: 175px;
+  }
+  .foot-ul{
+      display: block !important;
+      color: white !important;
+  }
+  .footer-cont{
+    text-align: center;
+  }
+  .footer-text{
+    text-align: left !important;
+    line-height: 35px;
   }
 }
 

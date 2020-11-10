@@ -112,7 +112,7 @@ a span{
 	color: #0064de;
 }
 hr{
-	margin-bottom: 3.75rem;
+	margin-bottom: 2rem;
 }
 .section-develop-two{
 	margin-top: 5rem;
@@ -198,13 +198,13 @@ hr{
 #foot-ul li{
 	display: inline;
 }
-#foot-ul li a {
+.foot-ul li a {
 	text-decoration: none;
-	padding: 20px 20px 0 20px;
 	color: white;
 }
 dl, ol, ul{
 	margin-top: 0 !important;
+	list-style: none;
 }
 .botoncito{
     display: none;

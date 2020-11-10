@@ -25,39 +25,27 @@
   
 </head>
 <body>
-<section class=" banner-back shadow-sm p-3 mb-5 bg-white rounded" style="padding: 0 !important;">
+<section class=" banner-back shadow-sm p-3 mb-5 bg-white" style="padding: 0 !important;">
   <!--ENCABEZADO RESPONSIVO-->
-<section class="start-banner-res d-xs-inline d-md-none">
-  <div class="container-fluid">
-    <div class="row d-flex justify-content-around">
-      <div class="col-xs-6 mt-2">
-        <a class="text-menu" href="#"><i class="fas fa-phone icon-menu"></i> <span class="text-head-res"> 55 3161 7135 </span> </a>
-      </div>
-      <div class="col-xs-6 mt-2">
-        <a class="text-menu" href="#"><i class="fab fa-facebook-square icon-menu"></i> <span class="text-head-res">Provisions Systems</span> </a>
-      </div>
-    </div>
-  </div>
-</section>
 <!--FIN ENCABEZADO RESPONSIVO-->
-  <header class="start-header sticky-top" >
-      <div class="container">
-        <nav class="navbar navbar-expand-lg text-menu " >
-          <div class="row row-logo">
-            <a class="navbar-brand margin-brand" href="#">
-              <img src="/pvs/img/logopvs.png" alt="" width="200" class="logo">      
-            </a>
-          </div>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fas fa-ellipsis-h" id="main-color"></i>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <div class="container-menu ml-auto">
-              <div class="row banner-contact">
-                <div class="col-md-12 d-none d-md-block">
-                <ul class="navbar-nav">
+<header class="start-header sticky-top" >
+  <div class="container">
+    <nav class="navbar navbar-expand-lg text-menu " >
+      <div class="row row-logo">
+        <a class="navbar-brand margin-brand" href="#">
+          <img src="/pvs/img/logopvs.png" alt="" width="200" class="logo">      
+        </a>
+      </div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-ellipsis-h" id="main-color"></i>
+      </button>
+      <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+         <div class="container-menu ml-auto">
+           <div class="row banner-contact">
+             <div class="col-md-12 d-none d-md-block">
+               <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link text-menu" href="#"><i class="fas fa-phone icon-menu"></i> <span>55 3161 7135 </span> </a>
+                      <a class="nav-link text-menu" href="#"><i class="fas fa-phone icon-menu"></i> <span>55 3161 7135 </span> </a>
                     <li class="nav-item">
                       <a class="nav-link text-menu" href="#"><i class="fab fa-facebook-square icon-menu"></i> <span>Provisions Systems</span> </a>
                     </li>
@@ -66,28 +54,34 @@
                     </li>
                   </li>
                 </ul>
-              </div>
-              </div> 
-              <div class="row nav-text">
-                <div class="col-md-12">     
-                  <ul class="navbar-nav">
-                    <li class="nav-item">
-                      <a class="nav-link hvr-underline-from-center text-menu" href="#">Desarrollo a la medida</a>
-                      <li class="nav-item">
-                        <a class="nav-link hvr-underline-from-center text-menu" href="#">¿Por qué Provisions?</a>
+             </div>
+           </div> 
+           <div class="row nav-text">
+              <div class="col-md-12">     
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link hvr-underline-from-center text-menu" href="#">Desarrollo a la medida</a>
+                   <li class="nav-item">
+                     <a class="nav-link hvr-underline-from-center text-menu" href="#">¿Por qué Provisions?</a>
                       </li>
                       <li class="nav-item exito">
                         <a class="nav-link hvr-underline-from-center text-menu" href="#">Casos de éxito</a>
                       </li>
                     </li>
                   </ul>
-                </div>
               </div>
-          </div>
-          </div>
-        </nav>
-      </div>
-  </header>
+            </div>
+            <div class="row  d-xs-block d-md-none">
+              <div class="col-md-12 mt-2">
+                <a class="text-menu" href="#"><i class="fas fa-phone icon-menu" style="color: #a5d936;"></i> <span class="text-head-res"> 55 3161 7135 </span> </a>
+                <a class="text-menu" href="#"><i class="fab fa-facebook-square icon-menu" style="color: #a5d936;"></i> <span class="text-head-res">Provisions Systems</span> </a>
+              </div>
+           </div>
+         </div>
+       </div>
+     </nav>
+   </div>
+</header>
   <div class="container-fluid banner-letter">
     <div class="container  text-center">
       <div class="row banner-caption">
@@ -118,7 +112,7 @@
                    </div>
                    <div class="col-md-6">
                     <h1 class="d-block w-100 banner-caption-h1">¿Tienes algúna idea?</h1>
-                    <p class="banner-caption-p">Nosotros la hacemos realidad.</p>
+                    <p class="banner-caption-p">No basta con imaginarlo. Nosotros la hacemos realidad.</p>
                     <a href="" class="nav-link blue-btn hvr-push">Contáctanos ahora</a>
                   </div>
                 </div>
@@ -145,7 +139,7 @@
         
       </div>
       <div class="col-md-6 text-center">
-        <img src="/pvs/img/desarrollo1.png" class="image-develop animate d-md-block"  height="500">
+        <img src="/pvs/img/desarrollo1.png" class="image-develop animate d-md-block"  height="450">
       </div>
     </div>
     <div class="section-develop-two">
@@ -178,7 +172,7 @@
   <div class="container">
       <div class="row mt-5">
         <div class="col-md-12">
-          <h1 class="text-center work-h1 animate_benefits">Trabajar con Provisions</h1>
+          <h1 class="text-center h1-ideology animate_benefits">Trabajar con Provisions</h1>
           <hr style="width: 25%; background-color:  #a5d936; height: 3px; margin-bottom: 30px;">
         </div>
         <div class="col-md-12">
@@ -218,7 +212,7 @@
 <section class="services shadow-sm bg-white ">
   <div class="container">
     <div class="row d-flex justify-content-end text-center" >
-      <div class="col-md-6 p-5" style="background-color:white; height:700px;">
+      <div class="col-md-6 p-5 services-padding  back-services" style="background-color:white; height:700px;">
         <h1 class=" work-h1 animate_project">Aplicaciones web y software a la medida</h1>
         <hr style="width: 25%; background-color: #a5d936; height: 3px; margin-bottom: 30px;">
         <img src="/pvs/img/icono.png" alt="icono" height = "150">
@@ -234,7 +228,7 @@
 <section class="services2 shadow-sm bg-white">
   <div class="container">
     <div class="row d-flex justify-content-start text-center" >
-      <div class="col-md-6 p-5" style="background-color:white; height:700px;">
+      <div class="col-md-6 p-5 services-padding services-padding2 back-services" style="background-color:white; height:700px;">
         <h1 class=" work-h1 animate_services">Landing pages y posicionamiento web</h1>
         <hr style="width: 25%; background-color: #0064de; height: 3px; margin-bottom: 30px;">
         <img src="/pvs/img/icono2.png" alt="icono" height = "150">
@@ -252,13 +246,13 @@
   <div class="container text-center mt-5 mb-5">
     <div class="row">
       <div class="col-md-12">
-        <h1>¿Tienes algúna idea?</h1>
+        <h1 class="h1-ideology">¿Tienes algúna idea?</h1>
         <hr style="width: 25%; background-color: #a5d936; height: 3px;">
       </div>
     </div>
     <div class="row">
       <div class="col-md-12">
-        <h4>Si tienes en mente algún proyecto, acercate a nosotros, te ayudaremos a hacerlo realidad
+        <h4 class="h4-idea">Si tienes en mente algún proyecto, acercate a nosotros, te ayudaremos a hacerlo realidad
           con nuestro equipo de trabajo.
         </h4>
         <a href="" class="nav-link green-btn hvr-push">Contáctanos ahora</a>
@@ -312,32 +306,34 @@
   </div>
 </div>
 </section>
-<section class="footer-cont">
-    <footer class="container">
-      <div class="row  d-flex align-items-center">
-        <div class="col-md-2 mt-3">
-          <img src="/pvs/img/logopvs.png" alt="" width="150">
-        </div>
-        <div class="col-md-9 mt-3 ">
-          <ul class="mr-auto" id="foot-ul">
-            <li>
-              <a href="#"><i class="fas fa-circle mr-1" style="color: #0064de;"></i>Desarrollo a la medida </a>
-            </li>
-            <li>
-              <a href="#"><i class="fas fa-circle mr-1" style="color: #0064de;"></i>Nosotros</a>
-            </li>
-            <li >
-              <a href="#"><i class="fas fa-circle mr-1" style="color: #0064de;"></i>Contácto</a>
-            </li>
-          </ul>
-        </div>
+<section class="footer-cont shadow-sm p-3">
+  <footer class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <img src="/pvs/img/logopvs.png" alt="" width="150">
       </div>
-      <div class="row">
-      <div class="col-md-12 d-flex justify-content-end">
-        <small class="p-2"><i class="fas fa-kaaba" style="color: #a5d936;"></i>Provisions Systems S.A. de C.V.</small>
-        <small class="p-2"><a class="text-menu" href="#"><i class="fab fa-facebook-square icon-menu" style="color: #a5d936;"></i> <span class="text-head-res">Provisions Systems</span> </a></small>
+      <div class="col-md-9 mt-3 footer-text">
+        <ul class="d-flex justify-content-around foot-ul">
+          <li>
+            <a href="#"><i class="fas fa-circle mr-1" style="color: #0064de;"></i>Desarrollo a la medida </a>
+          </li>
+          <li>
+            <a href="#"><i class="fas fa-circle mr-1" style="color: #0064de;"></i>Nosotros</a>
+          </li>
+          <li >
+            <a href="#"><i class="fas fa-circle mr-1" style="color: #0064de;"></i>Contácto</a>
+          </li>
+        </ul>
+      </div>
+     </div>
+    <div class="row d-flex justify-content-end">
+      <div class="col-md-3 ">
+         <small class="p-2"><i class="fas fa-kaaba" style="color: #a5d936;"></i>Provisions Systems S.A. de C.V.</small>
+      </div>
+      <div class="col-md-2">
+         <small class="p-2"><a class="text-menu" href="#"><i class="fab fa-facebook-square icon-menu" style="color: #a5d936;"></i> <span class="text-head-res">Provisions Systems</span> </a></small>
+      </div>
     </div>
-   </div>
   </footer>
 </section>
 <div class="">
