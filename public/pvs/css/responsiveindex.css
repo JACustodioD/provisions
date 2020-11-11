@@ -1,4 +1,4 @@
-@media screen and (max-width:415px){
+@media screen and (max-width: 415px){
     .banner-capt-h1, .banner-caption-h1{
         font-size: 45px !important
     }
@@ -105,20 +105,38 @@
     }
  
     .t-frases{
-      font-size: 1.3em;
-      line-height: 35px !important;
-  }
-  .foot-ul{
-    display: block !important;
-    color: white !important;
- }
- .footer-cont{
-    text-align: center;
- }
-.footer-text{
-    text-align: left !important;
-    line-height: 35px;
- }
+        font-size: 1.3em;
+        line-height: 35px !important;
+    }
+    .foot-ul{
+        display: block !important;
+        color: white !important;
+    }
+    .footer-cont{
+        text-align: center;
+    }
+     .footer-text{
+        text-align: left !important;
+        line-height: 35px;
+    }
+}
+
+@media screen and (max-width:380px){
+    .develop-h1, .h1-ideology, .work-h1{
+        font-size: 30px !important;
+    }
+    .image-develop{
+        width: 90%;
+    }
+    .benefits-icon{
+        margin-bottom: 90px;
+    }
+    .back-services{
+        height: auto !important
+    }
+    .idea-section{
+        padding-top: 5rem !important;
+    }
 }
 
 @media screen and (max-width:320px){
