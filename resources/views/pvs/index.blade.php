@@ -6,11 +6,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta property="og:title" content="ProVisions Systems" />
-  <meta property="og:url" content="provisionssystems.com" />
-  <meta property="og:image" content="provisionssystems.com/img/PVS.jpg" />
-  <meta property="og:description" content="ProVisions Systems. Somos personas comprometidas con nuestros clientes, para apoyar y gestionar en materia de informática.">
+  <meta property="og:url" content="https://provisionssystems.com/" />
+  <meta property="og:image" content="https://provisionssystems.com/pvs/img/logopvs.png" />
+  <meta property="og:description" content="En Provisions, lo más importante es escucharte para así entender cuál es la necesidad de software que tu empresa necesita. Encontrarás la atención que te mereces y la solución que estás buscando. Somos pequeños emprendedores con ganas de ayudarte a crecer. Acércate a nosotros, encontraremos la solución.">
 
-  <meta name="keywords" content="ProVisions, provisions, ProVisions Systems, provisions systems, desarrollo,software">
+  <meta name="keywords" content="ProVisions, provisions, ProVisions Systems, provisions systems, desarrollo,software, empresa de software,consultora de software,desarrollo de software">
 
   <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="
   
@@ -32,7 +32,7 @@
   <div class="container">
     <nav class="navbar navbar-expand-lg text-menu " >
       <div class="row row-logo">
-        <a class="navbar-brand margin-brand" href="#">
+        <a class="navbar-brand margin-brand" href="/">
           <img src="/pvs/img/logopvs.png" alt="" width="200" class="logo">      
         </a>
       </div>
@@ -47,7 +47,7 @@
                   <li class="nav-item">
                       <a class="nav-link text-menu" href="#"><i class="fas fa-phone icon-menu"></i> <span>55 3161 7135 </span> </a>
                     <li class="nav-item">
-                      <a class="nav-link text-menu" href="#"><i class="fab fa-facebook-square icon-menu"></i> <span>Provisions Systems</span> </a>
+                      <a class="nav-link text-menu" href="https://www.facebook.com/ProVisionsSystems"><i class="fab fa-facebook-square icon-menu"></i> <span>Provisions Systems</span> </a>
                     </li>
                     <li class="nav-item mt-1">
                       <a class="nav-link blue-btn hvr-push"  style="font-size: 15px !important;" href="">Contáctanos</a>
@@ -111,8 +111,8 @@
                      <img src="/pvs/img/idea.png" class="d-none d-md-block" alt="slider1" height="450">
                    </div>
                    <div class="col-md-6">
-                    <h1 class="d-block w-100 banner-caption-h1">¿Tienes algúna idea?</h1>
-                    <p class="banner-caption-p">No basta con imaginarlo. Nosotros la hacemos realidad.</p>
+                    <h1 class="d-block w-100 banner-caption-h1">¿Tienes alguna idea?</h1>
+                    <p class="banner-caption-p">No basta con imaginarlo, nosotros la hacemos realidad.</p>
                     <a href="" class="nav-link blue-btn hvr-push">Contáctanos ahora</a>
                   </div>
                 </div>
@@ -130,11 +130,11 @@
       <div class="col-md-6 col-xs-12 col-sm-12">
         <h1 class="develop-h1 animate">Creamos soluciones a partir de sus necesidades</h1>
         <hr style="width: 25%; background-color: #a5d936; height: 3px;">
-        <p class="develop-text">En Provisions, lo mas importante es escucharte para así entender
-          cual es la necesidad de software que tu empresa necesita.
-          <span>Encontrarás la atención que te mereces y la solución que estas buscando</span>.
-          Somos pequeños emprendedores  con ganas de ayudarte a crecer.
-          Acercate a nosotros, encontraremos la solución.
+        <p class="develop-text">En Provisions, lo más importante es escucharte para así entender
+          cuál es la necesidad de software que tu empresa necesita.
+          <span>Encontrarás la atención que te mereces y la solución que estás buscando.</span>
+          Somos pequeños emprendedores con ganas de ayudarte a crecer.
+          Acércate a nosotros, encontraremos la solución.
         </p>
         
       </div>
@@ -216,7 +216,7 @@
         <h1 class=" work-h1 animate_project">Aplicaciones web y software a la medida</h1>
         <hr style="width: 25%; background-color: #a5d936; height: 3px; margin-bottom: 30px;">
         <img src="/pvs/img/icono.png" alt="icono" height = "150">
-        <p class="text-services mt-4">Desarrollamos software  totalmente personalizado y a la medaida en su empresa,
+        <p class="text-services mt-4">Desarrollamos software  totalmente personalizado y a la medida en su empresa,
           para simplificar y automatizar el manejo de toda su información.
           Con ello sus procesos serán más fáciles y eficientes
         </p>
@@ -233,7 +233,7 @@
         <hr style="width: 25%; background-color: #0064de; height: 3px; margin-bottom: 30px;">
         <img src="/pvs/img/icono2.png" alt="icono" height = "150">
         <p class="text-services mt-4">No es suficiente tener un software que automatice tus procesos.
-          El siguiente paso es atraer clientes y mostrar especificamente tus productos.
+          El siguiente paso es atraer clientes y mostrar específicamente tus productos.
           Todo ello es posible con una Landing Page y con un buen posicionamiento web SEO-SEM.
           En Provisions lo hacemos realidad.
         </p>
@@ -246,13 +246,13 @@
   <div class="container text-center mt-5 mb-5">
     <div class="row">
       <div class="col-md-12">
-        <h1 class="h1-ideology">¿Tienes algúna idea?</h1>
+        <h1 class="h1-ideology">¿Tienes alguna idea?</h1>
         <hr style="width: 25%; background-color: #a5d936; height: 3px;">
       </div>
     </div>
     <div class="row">
       <div class="col-md-12">
-        <h4 class="h4-idea">Si tienes en mente algún proyecto, acercate a nosotros, te ayudaremos a hacerlo realidad
+        <h4 class="h4-idea">Si tienes en mente algún proyecto, acércate a nosotros, te ayudaremos a hacerlo realidad
           con nuestro equipo de trabajo.
         </h4>
         <a href="" class="nav-link green-btn hvr-push">Contáctanos ahora</a>
@@ -328,10 +328,10 @@
      </div>
     <div class="row d-flex justify-content-end">
       <div class="col-md-3 ">
-         <small class="p-2"><i class="fas fa-kaaba" style="color: #a5d936;"></i>Provisions Systems S.A. de C.V.</small>
+         <small class="p-2"><i class="fas fa-kaaba" style="color: #a5d936;"></i> Provisions Systems S.A. de C.V.</small>
       </div>
       <div class="col-md-2">
-         <small class="p-2"><a class="text-menu" href="#"><i class="fab fa-facebook-square icon-menu" style="color: #a5d936;"></i> <span class="text-head-res">Provisions Systems</span> </a></small>
+         <small class="p-2"><a class="text-menu" href="https://www.facebook.com/ProVisionsSystems"><i class="fab fa-facebook-square icon-menu" style="color: #a5d936;"></i> <span class="text-head-res">Provisions Systems</span> </a></small>
       </div>
     </div>
   </footer>
