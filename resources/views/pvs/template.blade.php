@@ -71,8 +71,8 @@
                     </div>
                     <div class="row  d-xs-block d-lg-none">
                       <div class="col-md-12 mt-2">
-                        <a class="text-menu" href="#"><i class="fas fa-phone icon-menu" style="color: #a5d936;"></i> <span class="text-head-res mr-2"> 55 3161 7135 </span> </a>
-                        <a class="text-menu" href="#"><i class="fab fa-facebook-square icon-menu" style="color: #a5d936;"></i> <span class="text-head-res">Provisions Systems</span> </a>
+                        <a class="text-menu" href="https://api.whatsapp.com/send?phone=525531617135&text=Hola, me podrían dar más información. Tengo en mente un proyecto."><i class="fas fa-phone icon-menu" style="color: #a5d936;"></i> <span class="text-head-res mr-2"> 55 3161 7135 </span> </a>
+                        <a class="text-menu" href="https://www.facebook.com/ProVisionsSystems"><i class="fab fa-facebook-square icon-menu" style="color: #a5d936;"></i> <span class="text-head-res">Provisions Systems</span> </a>
                       </div>
                    </div>
                  </div>
