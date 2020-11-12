@@ -1,3 +1,41 @@
+@media screen and (max-width: 775px){
+    .banner-caption{
+        padding:250px 0 0 0;
+    }
+    .develop-h1, .h1-ideology, .work-h1{
+        font-size: 30px;
+        text-align: center;
+    }
+    .develop-text, .work-h3, .text-services{
+        font-size: 20px;
+        line-height: 35px;
+        text-align: justify;
+    }
+    .h4-idea, .t-frases{
+        font-size: 20px;
+        line-height: 35px;
+    }
+    .benefits-icon{
+        margin-bottom: 90px;
+    }
+    .img-benefits{
+        display: flex;
+        align-items: center;
+    }
+    .services-padding{
+        padding: 3rem 30px 30px 30px !important;
+     }
+     .services{
+         background-position-x: -400px;
+         background-position-y: 100px;
+     }
+     .services2{
+         background-position-x: -500px;
+         background-position-y: 100px;
+     }
+    
+
+
 @media screen and (max-width: 415px){
     .banner-capt-h1, .banner-caption-h1{
         font-size: 45px !important
@@ -136,6 +174,9 @@
     }
     .idea-section{
         padding-top: 5rem !important;
+    }
+    .carousel-indicators{
+        top: 250px !important;
     }
 }
 

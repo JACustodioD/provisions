@@ -26,8 +26,6 @@
 </head>
 <body>
 <section class=" banner-back shadow-sm p-3 mb-5 bg-white" style="padding: 0 !important;">
-  <!--ENCABEZADO RESPONSIVO-->
-<!--FIN ENCABEZADO RESPONSIVO-->
 <header class="start-header sticky-top" >
   <div class="container">
     <nav class="navbar navbar-expand-lg text-menu " >
@@ -42,7 +40,7 @@
       <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
          <div class="container-menu ml-auto">
            <div class="row banner-contact">
-             <div class="col-md-12 d-none d-md-block">
+             <div class="col-md-12 d-none d-lg-block">
                <ul class="navbar-nav">
                   <li class="nav-item">
                       <a class="nav-link text-menu" href="#"><i class="fas fa-phone icon-menu"></i> <span>55 3161 7135 </span> </a>
@@ -71,9 +69,9 @@
                   </ul>
               </div>
             </div>
-            <div class="row  d-xs-block d-md-none">
+            <div class="row  d-xs-block d-lg-none">
               <div class="col-md-12 mt-2">
-                <a class="text-menu" href="#"><i class="fas fa-phone icon-menu" style="color: #a5d936;"></i> <span class="text-head-res"> 55 3161 7135 </span> </a>
+                <a class="text-menu" href="#"><i class="fas fa-phone icon-menu" style="color: #a5d936;"></i> <span class="text-head-res mr-2"> 55 3161 7135 </span> </a>
                 <a class="text-menu" href="#"><i class="fab fa-facebook-square icon-menu" style="color: #a5d936;"></i> <span class="text-head-res">Provisions Systems</span> </a>
               </div>
            </div>
@@ -139,13 +137,13 @@
         
       </div>
       <div class="col-md-6 text-center">
-        <img src="/pvs/img/desarrollo1.png" class="image-develop animate d-md-block"  height="450">
+        <img src="/pvs/img/desarrollo1.png" class="image-develop animate d-md-block img-fluid"  height="450">
       </div>
     </div>
     <div class="section-develop-two">
     <div class="row">
       <div class="col-md-6">
-        <img src="/pvs/img/desarrollo2.png" class="animate1 d-none d-md-block" height="500">
+        <img src="/pvs/img/desarrollo2.png" class="animate1 d-none d-md-block img-fluid" height="500">
       </div>
       <div class="col-md-6 col-xs-12 col-sm-12">
         <h1 class="develop-h1 animate1">Desarrollamos a la medida</h1>
@@ -156,7 +154,7 @@
             hacer realidad lo que necesita en su empresa.
           </p>
           <div class="col-md-6 text-center">
-            <img src="/pvs/img/desarrollo2.png" class=" image-develop animate1 d-md-none">
+            <img src="/pvs/img/desarrollo2.png" class=" image-develop animate1 d-md-none img-fluid">
           </div>
           <div class="text-center">
           <a href="" class="nav-link blue-btn hvr-push">Contáctanos ahora</a>
@@ -180,9 +178,9 @@
             los mejores beneficios.</h3>
       </div>
     </div>
-    <div class="row mt-5">
+    <div class="row mt-5 img-benefits">
       <div class="col-md-6">
-        <img class="animate_benefits d-none d-md-block" src="/pvs/img/beneficios.png" alt="">
+        <img class="animate_benefits d-none d-md-block img-fluid" src="/pvs/img/beneficios.png" alt="">
       </div>
       <div class="col-md-6">
         <div class="mb-5 benefits-space">
@@ -212,7 +210,7 @@
 <section class="services shadow-sm bg-white ">
   <div class="container">
     <div class="row d-flex justify-content-end text-center" >
-      <div class="col-md-6 p-5 services-padding  back-services" style="background-color:white; height:700px;">
+      <div class="col-md-7 col-lg-6 p-5 services-padding  back-services" style="background-color:white; height:700px;">
         <h1 class=" work-h1 animate_project">Aplicaciones web y software a la medida</h1>
         <hr style="width: 25%; background-color: #a5d936; height: 3px; margin-bottom: 30px;">
         <img src="/pvs/img/icono.png" alt="icono" height = "150">
@@ -228,7 +226,7 @@
 <section class="services2 shadow-sm bg-white">
   <div class="container">
     <div class="row d-flex justify-content-start text-center" >
-      <div class="col-md-6 p-5 services-padding services-padding2 back-services" style="background-color:white; height:700px;">
+      <div class="col-md-7 col-lg-6 p-5 services-padding services-padding2 back-services" style="background-color:white; height:700px;">
         <h1 class=" work-h1 animate_services">Landing pages y posicionamiento web</h1>
         <hr style="width: 25%; background-color: #0064de; height: 3px; margin-bottom: 30px;">
         <img src="/pvs/img/icono2.png" alt="icono" height = "150">
@@ -327,10 +325,10 @@
       </div>
      </div>
     <div class="row d-flex justify-content-end">
-      <div class="col-md-3 ">
+      <div class="col-lg-3 col-md-5 ">
          <small class="p-2"><i class="fas fa-kaaba" style="color: #a5d936;"></i>Provisions Systems S.A. de C.V.</small>
       </div>
-      <div class="col-md-2">
+      <div class="col-lg-2 col-md-4">
          <small class="p-2"><a class="text-menu" href="#"><i class="fab fa-facebook-square icon-menu" style="color: #a5d936;"></i> <span class="text-head-res">Provisions Systems</span> </a></small>
       </div>
     </div>
