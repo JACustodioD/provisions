@@ -161,6 +161,8 @@ hr{
 }
 .text-services{
 	font-size: 1.2em;
+	line-height: 35px;
+	text-align: justify;
 }
 .services2{
 	background-image: url("/pvs/img/servicios2.jpg");
@@ -170,8 +172,11 @@ hr{
 	height: 700px;
 }
 
+/*IDEA SECTION*/
 
-
+.h4-idea{
+	line-height: 35px;
+}
 
 /*SECCION DE FRASES*/
 .frases-section{

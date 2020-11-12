@@ -1,4 +1,4 @@
-@media screen and (max-width: 775px){
+@media screen and (max-width: 800px){
     .banner-caption{
         padding:250px 0 0 0;
     }
@@ -27,11 +27,11 @@
      }
      .services{
          background-position-x: -400px;
-         background-position-y: 100px;
+         background-position-y: 70px;
      }
      .services2{
          background-position-x: -500px;
-         background-position-y: 100px;
+         background-position-y: 80px;
      }
     
 
