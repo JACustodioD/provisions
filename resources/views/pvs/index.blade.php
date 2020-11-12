@@ -325,15 +325,11 @@
       </div>
      </div>
     <div class="row d-flex justify-content-end">
-      <div class="col-lg-3 col-md-5 ">
-         <small class="p-2"><i class="fas fa-kaaba" style="color: #a5d936;"></i>Provisions Systems S.A. de C.V.</small>
-      </div>
-      <div class="col-lg-2 col-md-4">
-         <small class="p-2"><a class="text-menu" href="#"><i class="fab fa-facebook-square icon-menu" style="color: #a5d936;"></i> <span class="text-head-res">Provisions Systems</span> </a></small>
-      <div class="col-md-3 ">
+    
+      <div class="col-md-5 col-lg-3">
          <small class="p-2"><i class="fas fa-kaaba" style="color: #a5d936;"></i> Provisions Systems S.A. de C.V.</small>
       </div>
-      <div class="col-md-2">
+      <div class="col-md-4 col-lg-2">
          <small class="p-2"><a class="text-menu" href="https://www.facebook.com/ProVisionsSystems"><i class="fab fa-facebook-square icon-menu" style="color: #a5d936;"></i> <span class="text-head-res">Provisions Systems</span> </a></small>
       </div>
     </div>
