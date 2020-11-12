@@ -30,6 +30,7 @@ a:hover{
 
 a span{
 	cursor: default;
+	
 }
 .blue-btn{
 	background: linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
@@ -62,6 +63,10 @@ a span{
 	transition-property: transform;
 	transform: translateY(-10px);
 
+}
+
+.icon-menu:hover{
+	color: #a5d936;
 }
 
 /*BANNER PRINCIPAL*/

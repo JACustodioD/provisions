@@ -43,7 +43,7 @@
                      <div class="col-md-12 d-none d-lg-block">
                        <ul class="navbar-nav">
                           <li class="nav-item">
-                              <a class="nav-link text-menu" href="https://api.whatsapp.com/send?phone=525531617135&text=Hola necesito un proyecto"><i class="fas fa-phone icon-menu"></i> <span>55 3161 7135 </span> </a>
+                              <a class="nav-link text-menu" href="https://api.whatsapp.com/send?phone=525531617135&text=Hola, me podrían dar más información. Tengo en mente un proyecto."><i class="fas fa-phone icon-menu"></i> <span>55 3161 7135 </span> </a>
                             <li class="nav-item">
                               <a class="nav-link text-menu" href="https://www.facebook.com/ProVisionsSystems"><i class="fab fa-facebook-square icon-menu"></i> <span>Provisions Systems</span> </a>
                             </li>
@@ -136,7 +136,7 @@
         <div class="col-md-9 mt-3 footer-text">
           <ul class="d-flex justify-content-around foot-ul">
             <li>
-              <a href="https://api.whatsapp.com/send?phone=525531617135&text=Hola necesito un proyecto"><i class="fas fa-circle mr-1" style="color: #0064de;"></i>Desarrollo a la medida </a>
+              <a href="#"><i class="fas fa-circle mr-1" style="color: #0064de;"></i>Desarrollo a la medida </a>
             </li>
             <li>
               <a href="#"><i class="fas fa-circle mr-1" style="color: #0064de;"></i>Nosotros</a>
