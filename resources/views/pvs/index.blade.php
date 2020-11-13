@@ -1,6 +1,10 @@
-@extends('pvs.template')
+@extends('pvs.complements.template')
+
+@section('title','ProVisions Systems')
 
 @section('content')
+
+@include('pvs.complements.sectionBanner')
     
 <section class="section-develop shadow-sm p-3 mb-1 bg-white rounded">
   <div class="container">
@@ -47,7 +51,7 @@
   </div>
 </section>
 
-@include('pvs.benefits')
+@include('pvs.complements.benefits')
 
 <section class="services shadow-sm bg-white ">
   <div class="container">
