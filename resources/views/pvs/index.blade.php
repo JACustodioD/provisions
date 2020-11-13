@@ -1,187 +1,153 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-180797871-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+@extends('pvs.complements.template')
 
-  gtag('config', 'UA-180797871-1');
-</script>
+@section('title','ProVisions Systems')
 
-  
-  <title>ProVisions Systems</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <meta property="og:title" content="ProVisions Systems" />
-  <meta property="og:url" content="provisionssystems.com" />
-  <meta property="og:image" content="provisionssystems.com/img/PVS.jpg" />
-  <meta property="og:description" content="ProVisions Systems. Somos personas comprometidas con nuestros clientes, para apoyar y gestionar en materia de informática.">
+@section('content')
 
-  <meta name="keywords" content="ProVisions, provisions, ProVisions Systems, provisions systems, desarrollo,software">
-
-  <link rel="stylesheet" type="text/css" href="css/normalize.css">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="shortcut icon" type="image/x-icon" href="img/PVS1.png">
-  
-</head>
-<body>
-
-  <div class="container-fluid menunav"> <!-- CONTAINER DEL MENU-->
-    <nav class="navbar navbar-expand-lg navbar-light colornav ">
-      <a class="navbar-brand" href="../"><img class="mt-1" src="img/PVS1.png" id="logo" width="220px" height="130px"></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" id="botonmenu">
-        <span class="navbar-toggler-icon img-fluid d-sm-block"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end " id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link mr-5 linkmenu" href="/">Home </a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link mr-5 linkmenu " href="#">Quienes somos</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link mr-5 linkmenu " href="/invitations">Invitaciones</a>
-          </li>
-        </ul>
+@include('pvs.complements.sectionBanner')
+    
+<section class="section-develop shadow-sm p-3 mb-1 bg-white rounded">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-xs-12 col-sm-12">
+        <h1 class="develop-h1 animate">Creamos soluciones a partir de sus necesidades</h1>
+        <hr style="width: 25%; background-color: #a5d936; height: 3px;">
+        <p class="develop-text">En Provisions, lo más importante es escucharte para así entender
+          cuál es la necesidad de software que tu empresa necesita.
+          <span>Encontrarás la atención que te mereces y la solución que estás buscando.</span>
+          Somos pequeños emprendedores con ganas de ayudarte a crecer.
+          Acércate a nosotros, encontraremos la solución.
+        </p>
+        
       </div>
-    </nav> 
-  </div> <!-- fin contaier menu-->
-
-<div class="container-fluid mt-2 "> <!-- Silider -->
-  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-    </ol>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img class="d-block w-100" src="img/slider1.jpg" alt="First slide" height="500px">
-         <div class="carousel-caption">
-            <h1 class="textoslider">Profesionales en software</h1>
-            <h4 class="textoslider">Tenemos amplia vision en tecnologias de desarrollo</h4>
-         </div>
-      </div>
-      <div class="carousel-item">
-        <img class="d-block w-100" src="img/slider2.jpg" alt="Second slide" height="500px">
-        <div class="carousel-caption">
-            <h1 class="textoslider">Quienes somos</h1>
-            <h4 class="textoslider">Somos una empresa dedicada al desarrollo de tecnologías de software para automatizar e innovar a traves de un sistema y así resolver sus necesidades</h4>
-         </div>
-      </div>
-      <div class="carousel-item">
-        <img class="d-block w-100" src="img/slider3.jpg" alt="Third slide" height="500px">
-        <div class="carousel-caption ">
-            <h1 class="textoslider">Nuestro objetivo es</h1>
-            <h4 class="textoslider">Crear e implementar soluciones a partir del desarrollo de software con la finalidad de facilitar procesos y actividades.</h4>
-         </div>
+      <div class="col-md-6 text-center">
+        <img src="/pvs/img/desarrollo1.png" class="image-develop animate d-md-block img-fluid"  height="450">
       </div>
     </div>
-    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
+    <div class="section-develop-two">
+    <div class="row">
+      <div class="col-md-6">
+        <img src="/pvs/img/desarrollo2.png" class="animate1 d-none d-md-block img-fluid" height="500">
+      </div>
+      <div class="col-md-6 col-xs-12 col-sm-12">
+        <h1 class="develop-h1 animate1">Desarrollamos a la medida</h1>
+          <hr style="width: 25%; background-color: #a5d936; height: 3px;">
+          <p class="develop-text">En Provisions, <span>trabajamos con metodologías que agilicen los procesos</span>
+            de acuerdo a lo que realizamos, así nuestros clientes estarán en 
+            conjunto con nosotros visualizando el avance de su proyecto. Nuestro compromiso es 
+            hacer realidad lo que necesita en su empresa.
+          </p>
+          <div class="col-md-6 text-center">
+            <img src="/pvs/img/desarrollo2.png" class=" image-develop animate1 d-md-none img-fluid">
+          </div>
+          <div class="text-center">
+          <a href="" class="nav-link blue-btn hvr-push">Contáctanos ahora</a>
+        </div>
+        </div>
+       
+        
+      </div>
+    </div>
   </div>
-</div>  <!-- Fin Slider--> 
-  
-  <div class="container-fluid seccion1 "> <!-- CONTAINER SECCION 1-->
-      <div class="row d-flex justify-content-center">
-        <div class="col-md-12 col-xm-2">
-          <h3 class="display-3 titleSect1"> En ProVisions</h3>
-        </div>
-      </div>
-      <p class="lead textsection1"> Somos profesionales con una amplia vision sobre tecnologias de desarrollo de software ya que creamos soluciones a partir de sus problemas. </p>
-      <hr class="linesection1">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-12 d-flex justify-content-around">
-            <figure class="figure">
-              <img src="img/icono.svg" class=" sizeimage img-fluid mt-5" alt="">
-              <figcaption class="figure-caption mt-4">Creamos Soluciones</figcaption>
-            </figure>
-            <figure class="figure">
-              <img src="img/icono1.svg"  class=" sizeimage img-fluid mt-5" alt="">
-              <figcaption class="figure-caption mt-4">Mejoramos Procesos</figcaption>
-            </figure>
-            <figure class="figure">
-              <img src="img/icono2.svg"  class=" sizeimage img-fluid mt-5" alt="">
-              <figcaption class="figure-caption mt-4">Aumentamos Rendimiento</figcaption>
-            </figure>
-        </div>        
-        </div>
-      </div>  
-    </div> <!-- FIN CONTAINER SECCION 1-->
-  
+</section>
 
-  <div class="container-fluid margen seccion2"> <!-- CONTAINER SECCION 2-->
-    <h3 class="mt-4 ml-2 textoslider">Te escuchamos, creamos y solucionamos. Contactenos</h3> 
-    <div class="row ml-2">
-      <div class="col-md-4 col-xs-12" >
-        <div class="formSec2 d-flex justify-content-center">
-            <form action="proceso.php" method="POST" class="form-group">
-               <label for="validationTooltip01">Nombre</label>
-                <input type="text" class="form-control inputCont" name="nombre"  required autocomplete="off">
-            
-                <label  class="mt-3" for="validationTooltip01 ">Email</label>
-                <input type="text" class="form-control inputCont" name="email" required autocomplete="on"> 
-          
-                <label  class="mt-3" for="validationTooltip01">Telefono</label>
-                <input type="text" class="form-control inputCont" name="telefono"  required autocomplete="off"> 
-              
-                <label class="mt-3" for="validationTooltip01">Mensaje</label>
-                <textarea cols="30" rows="8" class="formTexta form-control" name="mensaje"></textarea> <br>
-                <input class="btn btn-outline-light buttonForm" type="submit" name="" value="Enviar">            
-            </form>
-        </div>
-      </div>
-        <div class="col-md-7 offset-1 d-none d-sm-block d-xs-none">
-          <img id="pvslogo" class="imgSec2" src="img/PVS1.png" height="350px" width="600px">  
-        </div>
-    </div> 
-  </div> <!-- FIN CONTAINER 2-->
+@include('pvs.complements.benefits')
 
-  <div class="container-fluid footerpvs">  
-    <footer class="blockquote text-center">
-      <div class="row">
-        <div class="col-md-11">
-          <p class="text-uppercase mt-5 text-center"> <b> ProVisions Systems </b> &copy; </p>
-          <p class="textfoot"> Todos los derechos reservados</p>
-        </div>      
+<section class="services shadow-sm bg-white ">
+  <div class="container">
+    <div class="row d-flex justify-content-end text-center" >
+      <div class="col-md-7 col-lg-6 p-5 services-padding  back-services" style="background-color:white; height:700px;">
+        <h1 class=" work-h1 animate_project">Aplicaciones web y software a la medida</h1>
+        <hr style="width: 25%; background-color: #a5d936; height: 3px; margin-bottom: 30px;">
+        <img src="/pvs/img/icono.png" alt="icono" height = "150">
+        <p class="text-services mt-4">Desarrollamos software  totalmente personalizado y a la medida en su empresa,
+          para simplificar y automatizar el manejo de toda su información.
+          Con ello sus procesos serán más fáciles y eficientes
+        </p>
+        <a href="" class="nav-link green-btn hvr-push">Solicitar más información</a>
       </div>
-     <hr class="lineafoot">
-      <div class="row">
-        <div class="col-4">
-           <a href="https://www.facebook.com/ProVisionsSystems" target="_blank">
-            <i class="fab fa-facebook-f iconsf d-sm-inline mt-3 "></i>
-          </a>
-        </div>
-        <div class="col-4">
-           <a href="https://www.twitter.com/ProVisionsSyst" target="_blank">
-            <i class="fab fa-twitter  iconsf d-sm-inline img-fluid mt-3 "></i>
-           </a>
-        </div>
-        <div class="col-4">
-         <a href="https://www.youtube.com" target="_blank">
-           <i class="fab fa-youtube iconsf d-sm-inline img-fluid mt-3"></i>
-         </a>
-        </div>
+    </div>
+ </div>
+</section>
+<section class="services2 shadow-sm bg-white">
+  <div class="container">
+    <div class="row d-flex justify-content-start text-center" >
+      <div class="col-md-7 col-lg-6 p-5 services-padding services-padding2 back-services" style="background-color:white; height:700px;">
+        <h1 class=" work-h1 animate_services">Landing pages y posicionamiento web</h1>
+        <hr style="width: 25%; background-color: #0064de; height: 3px; margin-bottom: 30px;">
+        <img src="/pvs/img/icono2.png" alt="icono" height = "150">
+        <p class="text-services mt-4">No es suficiente tener un software que automatice tus procesos.
+          El siguiente paso es atraer clientes y mostrar específicamente tus productos.
+          Todo ello es posible con una Landing Page y con un buen posicionamiento web SEO-SEM.
+          En Provisions lo hacemos realidad.
+        </p>
+        <a href="" class="nav-link blue-btn hvr-push">Solicitar más información</a>
       </div>
-    
-   
-    </footer>
+    </div>
+ </div>
+</section>
+<section class="idea-section shadow-sm p-3 mb-5 bg-white">
+  <div class="container text-center mt-5 mb-5">
+    <div class="row">
+      <div class="col-md-12">
+        <h1 class="h1-ideology">¿Tienes alguna idea?</h1>
+        <hr style="width: 25%; background-color: #a5d936; height: 3px;">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <h4 class="h4-idea">Si tienes en mente algún proyecto, acércate a nosotros, te ayudaremos a hacerlo realidad
+          con nuestro equipo de trabajo.
+        </h4>
+        <a href="" class="nav-link green-btn hvr-push">Contáctanos ahora</a>
+      </div>
+    </div>
   </div>
   
-  <script src="js/jquery.js" ></script> 
-  <script src="js/bootstrap.min.js" ></script>
-  <script src="js/all.js"></script> 
-</body>
-</html>
+</section>
+<section class="frases-section shadow-sm p-3  bg-white">
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 text-center">
+      <h1 class="h1-ideology">Nuestra ideología es importante</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+        </ol>
+        <div class="carousel-inner text-center">
+          <div class="carousel-item active">
+            <h2 class=" t-frases d-block w-100"> <strong>“</strong> No hemos sido los primeros, pero seremos los mejores. <strong>”</strong></h2>
+            <h5>-Steve Jobs.</h5>
+          </div>
+          <div class="carousel-item">
+            <h2 class="t-frases d-block w-100"> <strong>“</strong> Muchas cosas son improbables, solo unas pocas son imposibles. <strong>”</strong></h2>
+            <h5>-Elon Musk.</h5>
+          </div>
+          <div class="carousel-item">
+            <h2 class="t-frases d-block w-100"> <strong>“</strong> Ama tu visión y tus sueños como si fueran los hijos de tu alma, los planos de tus logros finales. <strong>”</strong></h2>
+            <h5>-Napoleon Hill.</h5>
+          </div>
+          <div class="carousel-item">
+            <h2 class="t-frases d-block w-100"> <strong>“</strong> Precio es lo que pagas, valor es lo que recibes. <strong>”</strong></h2>
+            <h5>-Warren Buffet.</h5>
+          </div>
+          <div class="carousel-item">
+            <h2 class="t-frases d-block w-100"> <strong>“</strong> Los ganadores no tienen miedo de perder, los perdedores sí lo tienen. Fracasar es parte del proceso del éxito. <strong>”</strong></h2>
+            <h5>-Robert Kiyosaki.</h5>
+          </div>
+        </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+@endsection
