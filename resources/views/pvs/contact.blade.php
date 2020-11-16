@@ -4,8 +4,8 @@
 
 @section('content')
 
-    @include('pvs.complements.menu')
+    
 
-     {{-- Aqui va tu código --}}
+   <h1>codigo</h1>
 
 @endsection
