@@ -19,6 +19,9 @@
                     y satisfacción nos respalda.
                 </p>
             </div>
+            <div class="col-md-6">
+                <img src="/pvs/img/about-image.png" class="img-fluid" alt="solucion">
+            </div>
         </div>
     </section>
     <section class="about container shadow-sm p-3 mb-5 bg-white">
@@ -29,7 +32,7 @@
         <div class="card-deck">
             <div class="card">
                 <div class="text-center mt-2">
-                 <img  src="/pvs/img/mision.png" alt="misión" height="160" width="50%">
+                 <img class="hvr-shrink" src="/pvs/img/mision.png" alt="misión" height="160" width="50%" style="cursor: pointer;">
                 </div>
                 <div class="card-body">
                 <h5 class="card-title">Misión</h5>
@@ -41,7 +44,7 @@
         </div>
         <div class="card">
             <div class="text-center mt-2">
-                 <img  src="/pvs/img/vision.png" alt="misión" height="160" width="50%">
+                 <img class="hvr-shrink" src="/pvs/img/vision.png" alt="misión" height="160" width="50%" style="cursor: pointer;">
             </div>
             <div class="card-body"> 
                 <h5 class="card-title">Visión</h5>
@@ -50,7 +53,7 @@
         </div>
         <div class="card">
              <div class="text-center mt-2">
-                 <img  src="/pvs/img/valores.png" alt="misión" height="160" width="50%">
+                 <img class="hvr-shrink" src="/pvs/img/valores.png" alt="misión" height="160" width="50%" style="cursor: pointer;">
             </div>
             <div class="card-body">
                 <h5 class="card-title">Valores</h5>
@@ -78,6 +81,24 @@
             </div>
         </div>
         </div>
+    </section> 
+    @include('pvs.complements.benefits')
+    <section class=" shadow-sm p-3 mb-1 bg-white">
+        <div class="container text-center mt-5 mb-5">
+            <div class="row">
+            <div class="col-md-12">
+                <h1 class="h1-ideology">¿Tienes alguna idea?</h1>
+                <hr style="width: 25%; background-color: #0064de; height: 3px;">
+            </div>
+            </div>
+            <div class="row">
+            <div class="col-md-12">
+                <h4 class="h4-idea">Si tienes en mente algún proyecto, acércate a nosotros, te ayudaremos a hacerlo realidad
+                con nuestro equipo de trabajo.
+                </h4>
+                <a href="" class="nav-link blue-btn hvr-push">Contáctanos ahora</a>
+            </div>
+            </div>
+        </div>
     </section>
-     
 @endsection

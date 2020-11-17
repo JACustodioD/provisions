@@ -30,3 +30,12 @@
 .provisions-text strong{
     color: #0064de;
 }
+.icon-menu-about{
+    font-size: 2em;
+}
+.color-form{
+    background: linear-gradient(to right, rgb(37, 44, 54) 0%, rgb(37, 44, 54) 100%) !important;
+    height: 500px;
+    border-radius: 20px;
+}
+
