@@ -30,10 +30,12 @@
   sheet"> 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
   <link rel="stylesheet" href="/pvs/css/index.css">
-  <link rel="stylesheet" href="/pvs/css/contacto.css">
   <link rel="stylesheet" href="/pvs/css/responsiveindex.css">
   <link rel="stylesheet" href="/pvs/css/hover.css">
+  @yield('css')
+  
   <link rel="shortcut icon" type="image/x-icon" href="/pvs/img/logopvs.png">
   
 </head>
@@ -55,7 +57,7 @@
               <a href="#"><i class="fas fa-circle mr-1" style="color: #0064de;"></i>Desarrollo a la medida </a>
             </li>
             <li>
-              <a href="#"><i class="fas fa-circle mr-1" style="color: #0064de;"></i>Nosotros</a>
+              <a href="/acerca"><i class="fas fa-circle mr-1" style="color: #0064de;"></i>Nosotros</a>
             </li>
             <li >
               <a href="#"><i class="fas fa-circle mr-1" style="color: #0064de;"></i>Contácto</a>
@@ -83,7 +85,8 @@
   <script src="/pvs/js/efectos.js"></script> 
   <script src="/pvs/js/jquery.js"></script> 
   <script src="/pvs/js/boton.js"></script>
-  <script src="/pvs/js/sticky.js"></script>  
+  <script src="/pvs/js/sticky.js"></script>
+  @yield('script')
   </body>
   </html>
   

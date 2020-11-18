@@ -2,6 +2,10 @@
 
 @section('title','Acerca de')
 
+@section('css')
+<link rel="stylesheet" href="/pvs/css/contacto.css">
+@endsection
+
 @section('content')
 
     @include('pvs.complements.menu')
