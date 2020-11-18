@@ -17,7 +17,7 @@
                 <hr style="width: 25%; background-color: #a5d936; height: 3px;">
                 <p class="about-text">En Provisions, somos un equipo totalmente comprometido con
                     nuestros clientes, para brindarles la mejor experiencia,
-                    garantizado así calidad, y toda la atención que te mereces.
+                    garantizando así calidad, y toda la atención se merecen.
                     Somos un equipo emprendedor, con ganas de ayudarte de igual
                     forma a tomar el camino del éxito. Nuestra garantía de calidad 
                     y satisfacción nos respalda.
@@ -31,7 +31,7 @@
     <section class="about container shadow-sm p-3 mb-5 bg-white">
         <p class="provisions-text  text-center">
             <strong> ProVisions </strong> es una pequeña empresa, con entusiasmo y creatividadd para apoyarte a alcanzar el éxito. Trabajamos
-            Con tecnologías tales como: <strong> PHP, SQL, Javascript, Laravel </strong> entre otras.
+            con tecnologías tales como: <strong> PHP, SQL, Javascript, Laravel </strong> entre otras.
         </p>
         <div class="card-deck">
             <div class="card">
