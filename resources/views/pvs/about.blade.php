@@ -13,7 +13,7 @@
     <section class="section-about container shadow-sm p-3 mb-5 bg-white">
         <div class="row">
             <div class="col-md-6">
-                <h1 class="about-h1 text-center">¿Por qué Provisions?</h1>
+                <h1 class="about-h1   show-effect-h1 text-center">¿Por qué Provisions?</h1>
                 <hr style="width: 25%; background-color: #a5d936; height: 3px;">
                 <p class="about-text">En Provisions, somos un equipo totalmente comprometido con
                     nuestros clientes, para brindarles la mejor experiencia,
@@ -24,7 +24,7 @@
                 </p>
             </div>
             <div class="col-md-6">
-                <img src="/pvs/img/about-image.png" class="img-fluid" alt="solucion">
+                <img src="/pvs/img/about-image.png" class="img-fluid  show-effect-img" alt="solucion">
             </div>
         </div>
     </section>
@@ -36,7 +36,7 @@
         <div class="card-deck">
             <div class="card">
                 <div class="text-center mt-2">
-                 <img class="hvr-shrink" src="/pvs/img/mision.png" alt="misión" height="160" width="50%" style="cursor: pointer;">
+                 <img class="hvr-shrink about_icon" src="/pvs/img/mision.png" alt="misión" height="160" width="50%" style="cursor: pointer;">
                 </div>
                 <div class="card-body">
                 <h5 class="card-title">Misión</h5>
@@ -48,7 +48,7 @@
         </div>
         <div class="card">
             <div class="text-center mt-2">
-                 <img class="hvr-shrink" src="/pvs/img/vision.png" alt="misión" height="160" width="50%" style="cursor: pointer;">
+                 <img class="hvr-shrink about_icon" src="/pvs/img/vision.png" alt="misión" height="160" width="50%" style="cursor: pointer;">
             </div>
             <div class="card-body"> 
                 <h5 class="card-title">Visión</h5>
@@ -57,7 +57,7 @@
         </div>
         <div class="card">
              <div class="text-center mt-2">
-                 <img class="hvr-shrink" src="/pvs/img/valores.png" alt="misión" height="160" width="50%" style="cursor: pointer;">
+                 <img class="hvr-shrink about_icon" src="/pvs/img/valores.png" alt="misión" height="160" width="50%" style="cursor: pointer;">
             </div>
             <div class="card-body">
                 <h5 class="card-title">Valores</h5>

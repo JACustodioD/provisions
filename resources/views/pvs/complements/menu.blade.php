@@ -30,12 +30,12 @@
                 <div class="col-md-12">     
                   <ul class="navbar-nav">
                     <li class="nav-item">
-                      <a class="nav-link hvr-underline-from-center text-menu" href="#">Desarrollo a la medida</a>
+                      <a class="nav-link hvr-underline-from-center text-menu" href="/">Desarrollo a la medida</a>
                      <li class="nav-item">
                        <a class="nav-link hvr-underline-from-center text-menu" href="/acerca">¿Por qué Provisions?</a>
                         </li>
                         <li class="nav-item exito">
-                          <a class="nav-link hvr-underline-from-center text-menu" href="#">Casos de éxito</a>
+                          <a class="nav-link hvr-underline-from-center text-menu" href="/exito">Casos de éxito</a>
                         </li>
                       </li>
                     </ul>
