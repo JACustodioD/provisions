@@ -1,6 +1,6 @@
 @extends('pvs.complements.template')
 
-@section('title','Acerca de')
+@section('title','Nosotros')
 
 @section('css')
 <link rel="stylesheet" href="/pvs/css/contacto.css">
@@ -13,9 +13,9 @@
     <section class="section-about container shadow-sm p-3 mb-5 bg-white">
         <div class="row">
             <div class="col-md-6">
-                <h1 class="about-h1   show-effect-h1 text-center">¿Por qué Provisions?</h1>
+                <h1 class="about-h1   show-effect-h1 text-center">¿Por qué ProVisions?</h1>
                 <hr style="width: 25%; background-color: #a5d936; height: 3px;">
-                <p class="about-text">En Provisions, somos un equipo totalmente comprometido con
+                <p class="about-text">En ProVisions, somos un equipo totalmente comprometido con
                     nuestros clientes, para brindarles la mejor experiencia,
                     garantizando así calidad, y toda la atención se merecen.
                     Somos un equipo emprendedor, con ganas de ayudarte de igual
@@ -30,7 +30,7 @@
     </section>
     <section class="about container shadow-sm p-3 mb-5 bg-white">
         <p class="provisions-text  text-center">
-            <strong> ProVisions </strong> es una pequeña empresa, con entusiasmo y creatividadd para apoyarte a alcanzar el éxito. Trabajamos
+            <strong> ProVisions </strong> es una pequeña empresa, con entusiasmo y creatividad para apoyarte a alcanzar el éxito. Trabajamos
             con tecnologías tales como: <strong> PHP, SQL, Javascript, Laravel </strong> entre otras.
         </p>
         <div class="card-deck">
@@ -100,7 +100,7 @@
                 <h4 class="h4-idea">Si tienes en mente algún proyecto, acércate a nosotros, te ayudaremos a hacerlo realidad
                 con nuestro equipo de trabajo.
                 </h4>
-                <a href="" class="nav-link blue-btn hvr-push">Contáctanos ahora</a>
+                <a href="/contacto" class="nav-link blue-btn hvr-push">Contáctanos ahora</a>
             </div>
             </div>
         </div>

@@ -17,10 +17,10 @@
                     <li class="nav-item">
                         <a class="nav-link text-menu" href="https://api.whatsapp.com/send?phone=525531617135&text=Hola, me podrían dar más información. Tengo en mente un proyecto."><i class="fas fa-phone icon-menu"></i> <span>55 3161 7135 </span> </a>
                       <li class="nav-item">
-                        <a class="nav-link text-menu" href="https://www.facebook.com/ProVisionsSystems"><i class="fab fa-facebook-square icon-menu"></i> <span>Provisions Systems</span> </a>
+                        <a class="nav-link text-menu" href="https://www.facebook.com/ProVisionsSystems"><i class="fab fa-facebook-square icon-menu"></i> <span>ProVisions Systems</span> </a>
                       </li>
                       <li class="nav-item mt-1">
-                        <a class="nav-link blue-btn hvr-push"  style="font-size: 15px !important;" href="">Contáctanos</a>
+                        <a class="nav-link blue-btn hvr-push"  style="font-size: 15px !important;" href="/contacto">Contáctanos</a>
                       </li>
                     </li>
                   </ul>
@@ -32,10 +32,10 @@
                     <li class="nav-item">
                       <a class="nav-link hvr-underline-from-center text-menu" href="/">Desarrollo a la medida</a>
                      <li class="nav-item">
-                       <a class="nav-link hvr-underline-from-center text-menu" href="/acerca">¿Por qué Provisions?</a>
+                       <a class="nav-link hvr-underline-from-center text-menu" href="/nosotros">¿Por qué ProVisions?</a>
                         </li>
                         <li class="nav-item exito">
-                          <a class="nav-link hvr-underline-from-center text-menu" href="/exito">Casos de éxito</a>
+                          <a class="nav-link hvr-underline-from-center text-menu" href="/casos-exito">Casos de éxito</a>
                         </li>
                       </li>
                     </ul>
