@@ -10,7 +10,7 @@ Route::get('/contacto', function () {
     return view('pvs.contact'); // Página contacto
 });
 
-Route::get('/acerca', function () {
+Route::get('/nosotros', function () {
     return view('pvs.about'); // Página acerca de 
 });
 
