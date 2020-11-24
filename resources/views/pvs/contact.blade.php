@@ -66,8 +66,6 @@
                   <a class="terms-link" href="terminos-condiciones">He leido y acepto los terminos y condiciones.</a> 
                </div>
                <br> 
-               <div class="g-recaptcha" data-sitekey="6LcR_esZAAAAACEPY5apra4Z47-r9UpXqPltZEj4"></div>
-               <br/>
                <button class="blue-btn mb-4  hvr-push" type="submit" value="Submit">Enviar</button>  
              </form>
          </div>
@@ -79,11 +77,4 @@
 
 @section('script')
 <script type="text/javascript" src="/pvs/js/contact.js"></script>
-<script src="https://www.google.com/recaptcha/api.js"></script>
-<script>
-   function onSubmit(token) {
-     document.getElementById("demo-form").submit();
-   }
- </script>
-
 @endsection
