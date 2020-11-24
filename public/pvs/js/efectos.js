@@ -26,7 +26,7 @@ window.addEventListener('scroll', function(){showElements(animate1, 600, 'show-e
 window.addEventListener('scroll', function(){showElements(animate_benefits, 1300, 'show-effect-h1', 'show-effect-img')});
 window.addEventListener('scroll', function(){showElements(animate_project, 1900, 'show-effect-h1')});
 window.addEventListener('scroll', function(){showElements(animate_services, 2600, 'show-effect-h1')});
-window.addEventListener('scroll', function(){showElements(about_icon, 600, 'show-effect-img')});
+window.addEventListener('scroll', function(){showElements(about_icon, 600, 'show-effect-img','show-effect-img')});
 
 
 

@@ -65,7 +65,7 @@
                   <input type="checkbox">
                   <a class="terms-link" href="terminos-condiciones">He leido y acepto los terminos y condiciones.</a> 
                </div>
-               <br> {{-- Bonito br porque yolo ahi lo acomodas :C --}}
+               <br> 
                <div class="g-recaptcha" data-sitekey="6LcR_esZAAAAACEPY5apra4Z47-r9UpXqPltZEj4"></div>
                <br/>
                <button class="blue-btn mb-4  hvr-push" type="submit" value="Submit">Enviar</button>  
