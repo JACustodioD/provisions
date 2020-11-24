@@ -239,7 +239,8 @@ dl, ol, ul{
 
 
 /*ANIMACIONES*/
-.animate, .animate1, .animate_benefits, .animate_project, .animate_services{
+.animate, .animate1, .animate_benefits, .animate_project, .animate_services, .about_icon
+{
 	opacity: 0;
 	transition: all 0.7s;
 }

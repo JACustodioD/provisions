@@ -12,7 +12,7 @@
       <div class="col-md-6 col-xs-12 col-sm-12">
         <h1 class="develop-h1 animate">Creamos soluciones a partir de sus necesidades</h1>
         <hr style="width: 25%; background-color: #a5d936; height: 3px;">
-        <p class="develop-text">En Provisions, lo más importante es escucharte para así entender
+        <p class="develop-text">En ProVisions, lo más importante es escucharte para así entender
           cuál es la necesidad de software que tu empresa necesita.
           <span>Encontrarás la atención que te mereces y la solución que estás buscando.</span>
           Somos pequeños emprendedores con ganas de ayudarte a crecer.
@@ -32,7 +32,7 @@
       <div class="col-md-6 col-xs-12 col-sm-12">
         <h1 class="develop-h1 animate1">Desarrollamos a la medida</h1>
           <hr style="width: 25%; background-color: #a5d936; height: 3px;">
-          <p class="develop-text">En Provisions, <span>trabajamos con metodologías que agilicen los procesos</span>
+          <p class="develop-text">En ProVisions, <span>trabajamos con metodologías que agilicen los procesos</span>
             de acuerdo a lo que realizamos, así nuestros clientes estarán en 
             conjunto con nosotros visualizando el avance de su proyecto. Nuestro compromiso es 
             hacer realidad lo que necesita en su empresa.
@@ -41,7 +41,7 @@
             <img src="/pvs/img/desarrollo2.png" class=" image-develop animate1 d-md-none img-fluid">
           </div>
           <div class="text-center">
-          <a href="" class="nav-link blue-btn hvr-push">Contáctanos ahora</a>
+          <a href="/contacto" class="nav-link blue-btn hvr-push">Contáctanos ahora</a>
         </div>
         </div>
        
@@ -79,9 +79,9 @@
         <p class="text-services mt-4">No es suficiente tener un software que automatice tus procesos.
           El siguiente paso es atraer clientes y mostrar específicamente tus productos.
           Todo ello es posible con una Landing Page y con un buen posicionamiento web SEO-SEM.
-          En Provisions lo hacemos realidad.
+          En ProVisions lo hacemos realidad.
         </p>
-        <a href="" class="nav-link blue-btn hvr-push">Solicitar más información</a>
+        <a href="/contacto" class="nav-link blue-btn hvr-push">Solicitar más información</a>
       </div>
     </div>
  </div>
@@ -99,7 +99,7 @@
         <h4 class="h4-idea">Si tienes en mente algún proyecto, acércate a nosotros, te ayudaremos a hacerlo realidad
           con nuestro equipo de trabajo.
         </h4>
-        <a href="" class="nav-link green-btn hvr-push">Contáctanos ahora</a>
+        <a href="/contacto" class="nav-link green-btn hvr-push">Contáctanos ahora</a>
       </div>
     </div>
   </div>
@@ -150,4 +150,9 @@
   </div>
 </div>
 </section>
+<div class="hvr-push" id="whatsapp-icon" style="position:fixed; right:24px; bottom:100px; text-align:center; padding:3px">
+<a href="https://api.whatsapp.com/send?phone=+525531617135">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/240px-WhatsApp.svg.png" width="50" height="50"></a>
+</div>
+@include('pvs.complements.footer')
 @endsection

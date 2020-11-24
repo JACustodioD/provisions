@@ -3,7 +3,7 @@
     <div class="container">
         <div class="row mt-5">
           <div class="col-md-12">
-            <h1 class="text-center h1-ideology animate_benefits">Trabajar con Provisions</h1>
+            <h1 class="text-center h1-ideology animate_benefits">Trabajar con ProVisions</h1>
             <hr style="width: 25%; background-color:  #a5d936; height: 3px; margin-bottom: 30px;">
           </div>
           <div class="col-md-12">
