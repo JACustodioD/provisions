@@ -105,4 +105,9 @@
             </div>
         </div>
     </section>
+    <div class="hvr-push" id="whatsapp-icon" style="position:fixed; right:24px; bottom:100px; text-align:center; padding:3px">
+        <a href="https://api.whatsapp.com/send?phone=+525531617135">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/240px-WhatsApp.svg.png" width="50" height="50"></a>
+    </div>
+    @include('pvs.complements.footer')
 @endsection
