@@ -45,7 +45,9 @@
     código utlizado en el form 
 */
 
-
+   #blue-btn-contact{
+      width: 40%;
+   }
  .back-form{
     background-image: url('/pvs/img/contacto-back.jpg');
     background-position-y: 900px;
