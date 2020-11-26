@@ -54,7 +54,7 @@
  .contact-form {
     align-items: center;
     text-align: center;  
-    padding:12px
+    padding:12px;
   
  }
  .contact-form h2 {
@@ -115,8 +115,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
- }
- .i {
     color: #0064de;
     transition: .3s;
  }
@@ -147,7 +145,7 @@
     background: none;
     padding: 0.5rem 0.7rem;
     font-size: 1.2rem;
-    font-family: 'Poppins';
+   font-family:'Lato', sans-serif;
     color: #000; 
  }
 
@@ -164,10 +162,7 @@
      text-decoration: none;
  }
 
- @media screen and (max-width: 1000px) {
-    form {
-       width: 290px;
-    }
+ @media screen and (max-width: 700px) {
     form h2 {
        font-size: 2.4rem;
        margin: 8px 0;
