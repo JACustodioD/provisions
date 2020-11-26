@@ -62,7 +62,7 @@
         <img src="/pvs/img/icono.png" alt="icono" height = "150">
         <p class="text-services mt-4">Desarrollamos software  totalmente personalizado y a la medida en su empresa,
           para simplificar y automatizar el manejo de toda su información.
-          Con ello sus procesos serán más fáciles y eficientes
+          Con ello sus procesos serán más fáciles y eficientes.
         </p>
         <a href="" class="nav-link green-btn hvr-push">Solicitar más información</a>
       </div>
