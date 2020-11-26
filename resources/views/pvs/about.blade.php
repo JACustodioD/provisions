@@ -17,10 +17,10 @@
                 <hr style="width: 25%; background-color: #a5d936; height: 3px;">
                 <p class="about-text">En ProVisions, somos un equipo totalmente comprometido con
                     nuestros clientes, para brindarles la mejor experiencia,
-                    garantizando así calidad, y toda la atención se merecen.
+                    garantizando así calidad, y toda la atención que se merecen.
                     Somos un equipo emprendedor, con ganas de ayudarte de igual
                     forma a tomar el camino del éxito. Nuestra garantía de calidad 
-                    y satisfacción nos respalda.
+                    y satisfacción nos respaldan.
                 </p>
             </div>
             <div class="col-md-6">
