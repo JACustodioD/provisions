@@ -201,8 +201,25 @@ hr{
 }
 
 /*SECCION FOOTER*/
+
 #foot-ul{
 	margin-bottom: 0 !important;
+}
+ul{
+	padding-left: 0;
+}
+.footer-text{
+	font-size: 1.4em;
+	
+}
+.sub-text-foot{
+	font-size: 0.9em;
+	
+
+}
+.sub-text-foot:hover{
+	color:#a5d936;
+	transition: 1s;
 }
 #foot-ul li{
 	display: inline;

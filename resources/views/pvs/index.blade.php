@@ -53,7 +53,7 @@
 
 @include('pvs.complements.benefits')
 
-<section class="services shadow-sm bg-white ">
+<section class="services shadow-sm bg-white " id="Aplications">
   <div class="container">
     <div class="row d-flex justify-content-end text-center" >
       <div class="col-md-7 col-lg-6 p-5 services-padding  back-services" style="background-color:white; height:700px;">
@@ -69,7 +69,7 @@
     </div>
  </div>
 </section>
-<section class="services2 shadow-sm bg-white">
+<section class="services2 shadow-sm bg-white" id="Mkt">
   <div class="container">
     <div class="row d-flex justify-content-start text-center" >
       <div class="col-md-7 col-lg-6 p-5 services-padding services-padding2 back-services" style="background-color:white; height:700px;">

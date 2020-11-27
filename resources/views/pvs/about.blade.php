@@ -28,7 +28,7 @@
             </div>
         </div>
     </section>
-    <section class="about container shadow-sm p-3 mb-5 bg-white">
+    <section class="about container shadow-sm p-3 mb-5 bg-white" id="about">
         <p class="provisions-text  text-center">
             <strong> ProVisions </strong> es una pequeña empresa, con entusiasmo y creatividad para apoyarte a alcanzar el éxito. Trabajamos
             con tecnologías tales como: <strong> PHP, SQL, Javascript, Laravel </strong> entre otras.
