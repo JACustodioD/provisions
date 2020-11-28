@@ -193,6 +193,9 @@
     section{
         padding: 25px !important;
     }
+    .benefits-icon{
+        margin-bottom: 100px !important;
+    }
    .container-menu{
        width: 100%;
        text-align: center !important;
