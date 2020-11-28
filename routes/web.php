@@ -13,7 +13,7 @@ Route::get('/contacto', function () {
 Route::get('/nosotros', function () {
     return view('pvs.about'); // Página acerca de 
 });
-Route::get('/exito', function () {
+Route::get('/casos-de-exito', function () {
     return view('pvs.exito'); // Página casos de éxito
 });
 

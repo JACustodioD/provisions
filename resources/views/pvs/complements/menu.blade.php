@@ -35,7 +35,7 @@
                        <a class="nav-link hvr-underline-from-center text-menu" href="/nosotros">¿Por qué ProVisions?</a>
                         </li>
                         <li class="nav-item exito">
-                          <a class="nav-link hvr-underline-from-center text-menu" href="">Casos de éxito</a>
+                          <a class="nav-link hvr-underline-from-center text-menu" href="/casos-de-exito">Casos de éxito</a>
                         </li>
                       </li>
                     </ul>
