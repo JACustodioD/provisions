@@ -36,7 +36,7 @@
         <div class="card-deck">
             <div class="card">
                 <div class="text-center mt-2">
-                 <img class="hvr-shrink about_icon" src="/pvs/img/mision.png" alt="misión" height="160" width="50%" style="cursor: pointer;">
+                 <img class="hvr-shrink about_icon img-fluid" src="/pvs/img/mision.png" alt="misión" height="160" width="50%" style="cursor: pointer;">
                 </div>
                 <div class="card-body">
                 <h5 class="card-title">Misión</h5>
@@ -48,7 +48,7 @@
         </div>
         <div class="card">
             <div class="text-center mt-2">
-                 <img class="hvr-shrink about_icon" src="/pvs/img/vision.png" alt="misión" height="160" width="50%" style="cursor: pointer;">
+                 <img class="hvr-shrink about_icon img-fluid" src="/pvs/img/vision.png" alt="misión" height="160" width="50%" style="cursor: pointer;">
             </div>
             <div class="card-body"> 
                 <h5 class="card-title">Visión</h5>
@@ -57,7 +57,7 @@
         </div>
         <div class="card">
              <div class="text-center mt-2">
-                 <img class="hvr-shrink about_icon" src="/pvs/img/valores.png" alt="misión" height="160" width="50%" style="cursor: pointer;">
+                 <img class="hvr-shrink about_icon img-fluid" src="/pvs/img/valores.png" alt="misión" height="160" width="50%" style="cursor: pointer;">
             </div>
             <div class="card-body">
                 <h5 class="card-title">Valores</h5>

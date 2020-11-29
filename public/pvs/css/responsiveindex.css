@@ -2,12 +2,12 @@
     .banner-caption{
         padding:250px 0 0 0;
     }
-    .develop-h1, .h1-ideology, .work-h1{
+    .develop-h1, .h1-ideology, .work-h1, .about-h1{
         font-size: 30px;
         text-align: center;
     }
-    .develop-text, .work-h3, .text-services{
-        font-size: 20px;
+    .develop-text, .work-h3, .text-services, .about-text, .provisions-text{
+        font-size: 20px !important;
         line-height: 35px;
         text-align: justify;
     }
@@ -47,11 +47,11 @@
     .benefits-icon{
         margin-bottom: 50px !important;
     }
-    .develop-h1, .h1-ideology, .work-h1{
+    .develop-h1, .h1-ideology, .work-h1, .about-h1{
         font-size: 33px !important;
         text-align: center;
     }
-    .develop-text{
+    .develop-text, .about-text{
         line-height: 35px;
         font-size: 20px !important;
       }
@@ -61,7 +61,7 @@
     .text-services{
         line-height: 35px;
     }
-    .work-h3, .h4-idea{
+    .work-h3, .h4-idea, .provisions-text{
         font-size: 20px;
         line-height: 35px;
     }
@@ -104,16 +104,16 @@
     hr{
         margin-bottom: 30px;
     }
-    .develop-h1, .h1-ideology, .work-h1{
+    .develop-h1, .h1-ideology, .work-h1, .about-h1{
         font-size: 30px !important;
         text-align: center;
     }
-    .work-h3, .h4-idea{
+    .work-h3, .h4-idea, .provisions-text{
         font-size: 20px;
         line-height: 35px;
     }
     
-    .develop-text, .text-services{
+    .develop-text, .text-services, .about-text{
         line-height: 30px;
         font-size: 17px !important;
         text-align: justify;
@@ -163,7 +163,7 @@
 }
 
 @media screen and (max-width:380px){
-    .develop-h1, .h1-ideology, .work-h1{
+    .develop-h1, .h1-ideology, .work-h1, .about-h1{
         font-size: 30px !important;
     }
     .image-develop{
@@ -181,6 +181,7 @@
     .carousel-indicators{
         top: 250px !important;
     }
+
 }
 
 @media screen and (max-width:320px){
@@ -206,11 +207,11 @@
   .text-head-res{
       font-size: 12px;
   }
-  .develop-h1, .work-h1, .h1-ideology{
+  .develop-h1, .work-h1, .h1-ideology, .about-h1{
       font-size: 25px !important;
       text-align: center;
   }
-  .develop-text, .text-services, .blue-btn, .green-btn, .h4-idea{
+  .develop-text, .text-services, .blue-btn, .green-btn, .h4-idea, .about-text{
     line-height: 35px;
 	font-size: 15px;
   }
@@ -251,7 +252,7 @@
   .frases-section{
     height: 400px;
   }
-  .work-h3, .t-frases{
+  .work-h3, .t-frases, .provisions-text{
       font-size: 20px;
       line-height:30px ;
   }
@@ -270,4 +271,3 @@
     line-height: 35px;
   }
 }
-
