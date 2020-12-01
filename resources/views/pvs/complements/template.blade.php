@@ -19,7 +19,7 @@
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta property="og:title" content="ProVisions Systems" />
   <meta property="og:url" content="https://provisionssystems.com/" />
-  <meta property="og:image" content="https://provisionssystems.com/pvs/img/logopvs.png" />
+  <meta property="og:image" content="https://provisionssystems.com/pvs/img/icon.jpg" />
   <meta property="og:description" content="En Provisions, lo más importante es escucharte para así entender cuál es la necesidad de software que tu empresa necesita. Encontrarás la atención que te mereces y la solución que estás buscando. Somos pequeños emprendedores con ganas de ayudarte a crecer. Acércate a nosotros, encontraremos la solución.">
 
   <meta name="keywords" content="ProVisions, provisions, ProVisions Systems, provisions systems, desarrollo,software, empresa de software,consultora de software,desarrollo de software">
@@ -37,7 +37,7 @@
   <link rel="stylesheet" href="/pvs/css/hover.css">
   @yield('css')
   
-  <link rel="shortcut icon" type="image/x-icon" href="/pvs/img/logopvs.png">
+  <link rel="shortcut icon" type="image/x-icon" href="/pvs/img/icon.jpg">
   
 </head>
 <body>
