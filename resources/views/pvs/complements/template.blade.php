@@ -99,7 +99,7 @@
                      <i class="fas fa-mobile-alt"></i>
                   </div>
                   <div>
-                     <h5>teléfono *:</h5>
+                     <h5>Teléfono *:</h5>
                      <input class = "input" type="text">
                   </div>
                </div>

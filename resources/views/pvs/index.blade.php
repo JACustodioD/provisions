@@ -99,7 +99,7 @@
         <h4 class="h4-idea">Si tienes en mente algún proyecto, acércate a nosotros, te ayudaremos a hacerlo realidad
           con nuestro equipo de trabajo.
         </h4>
-        <a href="/contacto" class="nav-link green-btn hvr-push" data-toggle="modal" data-target="#staticBackdrop">Contáctanos ahora</a>
+        <a href="" class="nav-link green-btn hvr-push" data-toggle="modal" data-target="#staticBackdrop">Contáctanos ahora</a>
       </div>
     </div>
   </div>
