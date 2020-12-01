@@ -48,7 +48,7 @@
                      <i class="fas fa-mobile-alt"></i>
                   </div>
                   <div>
-                     <h5>teléfono *:</h5>
+                     <h5>Teléfono *:</h5>
                      <input class = "input" type="text">
                   </div>
                </div>
@@ -61,10 +61,11 @@
                      <textarea name="message" class="input" cols="20" rows="30"></textarea>
                   </div>
                </div>
+               {{--
                <div class="terms-div">
                   <input type="checkbox">
                   <a class="terms-link" href="terminos-condiciones">He leido y acepto los terminos y condiciones.</a> 
-               </div>
+               </div>  --}}
                <br> 
                <button class="blue-btn mb-4  hvr-push" type="submit" value="Submit">Enviar</button>  
              </form>
