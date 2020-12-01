@@ -1,7 +1,6 @@
 <?php
 
 
-
 Route::get('/', function () {
     return view('pvs.index'); // Raíz pagina de pvs
 });
@@ -30,3 +29,5 @@ Route::get('/invitations/provisionsDinner',function(){
 	return view('templetes.laborales.provisions'); // tempelete para fiesta laboral
 });
 
+
+Route::get('/contact','ContactController@index');
