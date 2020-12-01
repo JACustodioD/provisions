@@ -4,6 +4,12 @@
     <title>Posible cliente</title>
 </head>
 <body>
-    <p>Aqui va ir el contenido del correo</p>
+    <h1>Empresa: {{$data['company']}}</h1>
+
+    <ul>
+        <li><b>Responsable:</b> {{$data['name']}}</li>
+        <li><b>Contacto:</b> {{$data['email']}} | {{$data['phone']}}</li>
+        <li><b>Mensaje:</b> {{$data['message']}}</li>
+    </ul>
 </body>
 </html>

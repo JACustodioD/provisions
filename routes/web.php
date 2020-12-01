@@ -16,6 +16,11 @@ Route::get('/casos-de-exito', function () {
     return view('pvs.exito'); // Página casos de éxito
 });
 
+
+Route::get('/mensaje-confirmacion', function () {
+    return view('pvs.mensaje'); // Página casos de éxito
+});
+
 Route::get('/invitations',function(){
 	return view('pvs.invitations'); // Página principal para las invitaciones
 });
@@ -30,4 +35,4 @@ Route::get('/invitations/provisionsDinner',function(){
 });
 
 
-Route::get('/contact','ContactController@index');
+Route::post('/contact','ContactController@index');
