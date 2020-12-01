@@ -1,66 +1,46 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Casos de éxito</title>
+ @extends('pvs.complements.template')
+ 
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
-        <!-- Fonts -->
-        <link rel="dns-prefetch" href="//fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+ <style>
+ .cont-message{
+    height: 100%; 
+ }
+ .display-4{
+    text-shadow: -2px -2px 1px  #e5e5e5
 
-        <!-- Styles -->
-        <style>
-            html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Nunito', sans-serif;
-                font-weight: 100;
-                height: 100vh;
-                margin: 0;
-            }
 
-            .full-height {
-                height: 100vh;
-            }
 
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
+ }
+ .display-4, p{
+     color: #0064de;
+ }
 
-            .position-ref {
-                position: relative;
-            }
+ 
+ p{
+     font-size: 1.3em;
+ }
+ hr{
+     margin-bottom: 0 !important;
+ }
 
-            .code {
-                border-right: 2px solid;
-                font-size: 26px;
-                padding: 0 15px 0 15px;
-                text-align: center;
-            }
-
-            .message {
-                font-size: 18px;
-                text-align: center;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="flex-center position-ref full-height">
-            <div class="code">
-               <img src="/pvs/img/logopvs.png" alt="" height="50">
+ </style>
+ 
+     <div class="container cont-message d-flex justify-content-center align-items-center" >
+     <div class="row ">
+        <div class="col-md-12">
+            <div class="display-4 animate__animated animate__backInDown">
+                ¡Gracias por escribirnos!
             </div>
-
-            <div class="message" style="padding: 10px;">
-               Gracias por escribirnos nos pondremos en contacto lo antes posible.
-            </div>
+            <p class="text-center">Nos pondremos en contacto a la brevedad</p>
+            <hr style="width: 25%; background-color: #a5d936; height: 3px;">
+                  
         </div>
-    </body>
-
-    <script>
+     </div>      
+    </div>
+  <!--  
+ <script>
         function goIndex() {
             window.location = "/";
         }
