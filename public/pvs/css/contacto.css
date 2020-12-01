@@ -48,11 +48,7 @@
    #blue-btn-contact{
       width: 40%;
    }
- .back-form{
-    background-image: url('/pvs/img/contacto-back.jpg');
-    background-position-y: 900px;
-   
- }
+
  .contact-form {
     align-items: center;
     text-align: center;  

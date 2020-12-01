@@ -21,7 +21,7 @@
         
       </div>
       <div class="col-md-6 text-center">
-        <img src="/pvs/img/desarrollo1.png" class="image-develop animate d-md-block img-fluid"  height="450">
+        <img src="/pvs/img/desarrollo1.png" class="image-develop animate d-md-block img-fluid" >
       </div>
     </div>
     <div class="section-develop-two">
@@ -41,7 +41,7 @@
             <img src="/pvs/img/desarrollo2.png" class=" image-develop animate1 d-md-none img-fluid">
           </div>
           <div class="text-center">
-          <a href="/contacto" class="nav-link blue-btn hvr-push">Contáctanos ahora</a>
+          <a href="/contacto" class="nav-link blue-btn hvr-push" data-toggle="modal" data-target="#staticBackdrop" >Contáctanos ahora</a>
         </div>
         </div>
        
@@ -64,7 +64,7 @@
           para simplificar y automatizar el manejo de toda su información.
           Con ello sus procesos serán más fáciles y eficientes.
         </p>
-        <a href="" class="nav-link green-btn hvr-push">Solicitar más información</a>
+        <a href="" class="nav-link green-btn hvr-push" data-toggle="modal" data-target="#staticBackdrop">Solicitar más información</a>
       </div>
     </div>
  </div>
@@ -81,7 +81,7 @@
           Todo ello es posible con una Landing Page y con un buen posicionamiento web SEO-SEM.
           En ProVisions lo hacemos realidad.
         </p>
-        <a href="/contacto" class="nav-link blue-btn hvr-push">Solicitar más información</a>
+        <a href="/contacto" class="nav-link blue-btn hvr-push" data-toggle="modal" data-target="#staticBackdrop">Solicitar más información</a>
       </div>
     </div>
  </div>
@@ -99,7 +99,7 @@
         <h4 class="h4-idea">Si tienes en mente algún proyecto, acércate a nosotros, te ayudaremos a hacerlo realidad
           con nuestro equipo de trabajo.
         </h4>
-        <a href="/contacto" class="nav-link green-btn hvr-push">Contáctanos ahora</a>
+        <a href="/contacto" class="nav-link green-btn hvr-push" data-toggle="modal" data-target="#staticBackdrop">Contáctanos ahora</a>
       </div>
     </div>
   </div>

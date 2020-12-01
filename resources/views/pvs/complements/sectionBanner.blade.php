@@ -11,7 +11,7 @@
                   <div class="carousel-item active" data-interval="6000">
                     <h1 class="d-block w-100 banner-capt-h1">Profesionales para software profesional</h1>
                     <p class="banner-caption-p">Nuestro compromiso es crear soluciones</p>
-                    <a href="/contacto" class="nav-link blue-btn hvr-push">Contáctanos ahora</a>
+                    <a href="" class="nav-link blue-btn hvr-push" data-toggle="modal" data-target="#staticBackdrop">Contáctanos ahora</a>
                   </div>
                   <div class="carousel-item" data-interval="6000">
                     <div class="row d-flex align-items-center">
@@ -21,7 +21,7 @@
                        <div class="col-md-6">
                         <h1 class="d-block w-100 banner-caption-h1">Aplicaciones web</h1>
                         <p class="banner-caption-p">Tenemos la solución que tu empresa necesita.</p>
-                        <a href="/contacto" class="nav-link blue-btn hvr-push">Contáctanos ahora</a>
+                        <a href="" class="nav-link blue-btn hvr-push" data-toggle="modal" data-target="#staticBackdrop">Contáctanos ahora</a>
                       </div>
                     </div>
                   </div>
@@ -33,7 +33,7 @@
                        <div class="col-md-6">
                         <h1 class="d-block w-100 banner-caption-h1">¿Tienes alguna idea?</h1>
                         <p class="banner-caption-p">No basta con imaginarlo, nosotros la hacemos realidad.</p>
-                        <a href="/contacto" class="nav-link blue-btn hvr-push">Contáctanos ahora</a>
+                        <a href="" class="nav-link blue-btn hvr-push" data-toggle="modal" data-target="#staticBackdrop">Contáctanos ahora</a>
                       </div>
                     </div>
                   </div>

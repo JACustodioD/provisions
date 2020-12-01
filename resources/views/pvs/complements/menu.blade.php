@@ -20,7 +20,7 @@
                         <a class="nav-link text-menu" href="https://www.facebook.com/ProVisionsSystems"><i class="fab fa-facebook-square icon-menu"></i> <span>ProVisions Systems</span> </a>
                       </li>
                       <li class="nav-item mt-1">
-                        <a class="nav-link blue-btn hvr-push"  style="font-size: 15px !important;" href="/contacto">Contáctanos</a>
+                        <a class="nav-link blue-btn hvr-push"  style="font-size: 15px !important;" data-toggle="modal" data-target="#staticBackdrop"  >Contáctanos</a>
                       </li>
                     </li>
                   </ul>
