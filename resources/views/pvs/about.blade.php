@@ -3,6 +3,12 @@
 @section('title','Nosotros')
 
 @section('css')
+<style>
+    .contact-menu{
+        background: linear-gradient(to right, rgb(37, 44, 54) 0%, rgb(37, 44, 54) 100%) ;
+    }
+</style>
+
 <link rel="stylesheet" href="/pvs/css/contacto.css">
 @endsection
 
