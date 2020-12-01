@@ -53,7 +53,7 @@
        </div>
       <div class="row text-center">
          <div class="col-md-12">
-           <small class="p-2"><i class="fas fa-kaaba" style="color:#0064de;"></i> Designed By: <b>ProVisions Systems</b></small>
+           <small class="p-2"><i class="fas fa-kaaba" style="color:#0064de;"></i> Designed By: <a href="/"> ProVisions Systems </a></small>
         </div>
     </footer>
 </section>
