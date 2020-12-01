@@ -21,7 +21,7 @@
         
       </div>
       <div class="col-md-6 text-center">
-        <img src="/pvs/img/desarrollo1.png" class="image-develop animate d-md-block img-fluid" >
+        <img src="/pvs/img/desarrollo1.png" class="image-develop1 animate d-md-block img-fluid">
       </div>
     </div>
     <div class="section-develop-two">
