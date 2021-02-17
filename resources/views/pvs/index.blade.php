@@ -21,7 +21,7 @@
         
       </div>
       <div class="col-md-6 text-center">
-        <img src="/pvs/img/desarrollo1.png" class="image-develop animate d-md-block img-fluid"  height="450">
+        <img src="/pvs/img/desarrollo1.png" class="image-develop1 animate d-md-block img-fluid">
       </div>
     </div>
     <div class="section-develop-two">
@@ -41,7 +41,7 @@
             <img src="/pvs/img/desarrollo2.png" class=" image-develop animate1 d-md-none img-fluid">
           </div>
           <div class="text-center">
-          <a href="/contacto" class="nav-link blue-btn hvr-push">Contáctanos ahora</a>
+          <a href="/contacto" class="nav-link blue-btn hvr-push" data-toggle="modal" data-target="#staticBackdrop" >Contáctanos ahora</a>
         </div>
         </div>
        
@@ -53,7 +53,7 @@
 
 @include('pvs.complements.benefits')
 
-<section class="services shadow-sm bg-white ">
+<section class="services shadow-sm bg-white " id="Aplications">
   <div class="container">
     <div class="row d-flex justify-content-end text-center" >
       <div class="col-md-7 col-lg-6 p-5 services-padding  back-services" style="background-color:white; height:700px;">
@@ -62,14 +62,14 @@
         <img src="/pvs/img/icono.png" alt="icono" height = "150">
         <p class="text-services mt-4">Desarrollamos software  totalmente personalizado y a la medida en su empresa,
           para simplificar y automatizar el manejo de toda su información.
-          Con ello sus procesos serán más fáciles y eficientes
+          Con ello sus procesos serán más fáciles y eficientes.
         </p>
-        <a href="" class="nav-link green-btn hvr-push">Solicitar más información</a>
+        <a href="" class="nav-link green-btn hvr-push" data-toggle="modal" data-target="#staticBackdrop">Solicitar más información</a>
       </div>
     </div>
  </div>
 </section>
-<section class="services2 shadow-sm bg-white">
+<section class="services2 shadow-sm bg-white" id="Mkt">
   <div class="container">
     <div class="row d-flex justify-content-start text-center" >
       <div class="col-md-7 col-lg-6 p-5 services-padding services-padding2 back-services" style="background-color:white; height:700px;">
@@ -81,7 +81,7 @@
           Todo ello es posible con una Landing Page y con un buen posicionamiento web SEO-SEM.
           En ProVisions lo hacemos realidad.
         </p>
-        <a href="/contacto" class="nav-link blue-btn hvr-push">Solicitar más información</a>
+        <a href="/contacto" class="nav-link blue-btn hvr-push" data-toggle="modal" data-target="#staticBackdrop">Solicitar más información</a>
       </div>
     </div>
  </div>
@@ -99,7 +99,7 @@
         <h4 class="h4-idea">Si tienes en mente algún proyecto, acércate a nosotros, te ayudaremos a hacerlo realidad
           con nuestro equipo de trabajo.
         </h4>
-        <a href="/contacto" class="nav-link green-btn hvr-push">Contáctanos ahora</a>
+        <a href="" class="nav-link green-btn hvr-push" data-toggle="modal" data-target="#staticBackdrop">Contáctanos ahora</a>
       </div>
     </div>
   </div>
@@ -151,7 +151,7 @@
 </div>
 </section>
 <div class="hvr-push" id="whatsapp-icon" style="position:fixed; right:24px; bottom:100px; text-align:center; padding:3px">
-<a href="https://api.whatsapp.com/send?phone=+525531617135">
+<a href="https://api.whatsapp.com/send?phone=525531617135&text=Hola, me podrían dar más información. Tengo en mente un proyecto.">
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/240px-WhatsApp.svg.png" width="50" height="50"></a>
 </div>
 @include('pvs.complements.footer')

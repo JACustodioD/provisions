@@ -27,7 +27,7 @@
              <p class="benefits-text-p">Nos aseguramos que nuestros procesos sean ágiles para nuestros productos.</p>
            </div>
            <div class="mb-5 benefits-space">
-            <span><i class="fas fa-layer-group benefits-icon "></i></span> 
+            <span><i class="fas fa-layer-group benefits-icon" id="benefits-icon"></i></span> 
              <h4 class="benefits-text">Servicios</h4>
              <p class="benefits-text-p">Te brindamos un servicio personalizado y a la medida, como lo requieres.</p>
            </div>
@@ -40,3 +40,4 @@
       </div>
     </div>
   </section>
+

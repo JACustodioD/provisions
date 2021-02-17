@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>@yield('title')</title>
+        <title>Casos de éxito</title>
 
         <!-- Fonts -->
         <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -51,11 +51,11 @@
     <body>
         <div class="flex-center position-ref full-height">
             <div class="code">
-                @yield('code')
+               <img src="/pvs/img/logopvs.png" alt="" height="50">
             </div>
 
             <div class="message" style="padding: 10px;">
-                @yield('message')
+               Tu caso de éxito podría estar aquí ):
             </div>
         </div>
     </body>

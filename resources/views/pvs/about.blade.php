@@ -3,6 +3,12 @@
 @section('title','Nosotros')
 
 @section('css')
+<style>
+    .contact-menu{
+        background: linear-gradient(to right, rgb(37, 44, 54) 0%, rgb(37, 44, 54) 100%) ;
+    }
+</style>
+
 <link rel="stylesheet" href="/pvs/css/contacto.css">
 @endsection
 
@@ -17,10 +23,10 @@
                 <hr style="width: 25%; background-color: #a5d936; height: 3px;">
                 <p class="about-text">En ProVisions, somos un equipo totalmente comprometido con
                     nuestros clientes, para brindarles la mejor experiencia,
-                    garantizando así calidad, y toda la atención se merecen.
+                    garantizando así calidad, y toda la atención que se merecen.
                     Somos un equipo emprendedor, con ganas de ayudarte de igual
                     forma a tomar el camino del éxito. Nuestra garantía de calidad 
-                    y satisfacción nos respalda.
+                    y satisfacción nos respaldan.
                 </p>
             </div>
             <div class="col-md-6">
@@ -28,7 +34,7 @@
             </div>
         </div>
     </section>
-    <section class="about container shadow-sm p-3 mb-5 bg-white">
+    <section class="about container shadow-sm p-3 mb-5 bg-white" id="about">
         <p class="provisions-text  text-center">
             <strong> ProVisions </strong> es una pequeña empresa, con entusiasmo y creatividad para apoyarte a alcanzar el éxito. Trabajamos
             con tecnologías tales como: <strong> PHP, SQL, Javascript, Laravel </strong> entre otras.
@@ -36,7 +42,7 @@
         <div class="card-deck">
             <div class="card">
                 <div class="text-center mt-2">
-                 <img class="hvr-shrink about_icon" src="/pvs/img/mision.png" alt="misión" height="160" width="50%" style="cursor: pointer;">
+                 <img class="hvr-shrink about_icon img-fluid" src="/pvs/img/mision.png" alt="misión" height="160" width="50%" style="cursor: pointer;">
                 </div>
                 <div class="card-body">
                 <h5 class="card-title">Misión</h5>
@@ -48,7 +54,7 @@
         </div>
         <div class="card">
             <div class="text-center mt-2">
-                 <img class="hvr-shrink about_icon" src="/pvs/img/vision.png" alt="misión" height="160" width="50%" style="cursor: pointer;">
+                 <img class="hvr-shrink about_icon img-fluid" src="/pvs/img/vision.png" alt="misión" height="160" width="50%" style="cursor: pointer;">
             </div>
             <div class="card-body"> 
                 <h5 class="card-title">Visión</h5>
@@ -57,7 +63,7 @@
         </div>
         <div class="card">
              <div class="text-center mt-2">
-                 <img class="hvr-shrink about_icon" src="/pvs/img/valores.png" alt="misión" height="160" width="50%" style="cursor: pointer;">
+                 <img class="hvr-shrink about_icon img-fluid" src="/pvs/img/valores.png" alt="misión" height="160" width="50%" style="cursor: pointer;">
             </div>
             <div class="card-body">
                 <h5 class="card-title">Valores</h5>
@@ -100,7 +106,7 @@
                 <h4 class="h4-idea">Si tienes en mente algún proyecto, acércate a nosotros, te ayudaremos a hacerlo realidad
                 con nuestro equipo de trabajo.
                 </h4>
-                <a href="/contacto" class="nav-link blue-btn hvr-push">Contáctanos ahora</a>
+                <a href="" class="nav-link blue-btn hvr-push" data-toggle="modal" data-target="#staticBackdrop">Contáctanos ahora</a>
             </div>
             </div>
         </div>
