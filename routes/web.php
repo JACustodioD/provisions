@@ -36,3 +36,20 @@ Route::get('/invitations/provisionsDinner',function(){
 
 
 Route::post('/contact','ContactController@index');
+
+
+
+/* Rutas para el blog */
+
+//Ruta principal
+Route::get('/blog', function(){
+    return view('blog.index');
+});
+
+
+// Posts
+
+Route::get('/blog/primer-post', function(){
+    return view('blog.posts.primer-post');
+});
+

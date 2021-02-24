@@ -31,11 +31,14 @@
                   <ul class="navbar-nav">
                     <li class="nav-item">
                       <a class="nav-link hvr-underline-from-center text-menu" href="/">Desarrollo a la medida</a>
-                     <li class="nav-item">
-                       <a class="nav-link hvr-underline-from-center text-menu" href="/nosotros">¿Por qué ProVisions?</a>
-                        </li>
+                      <li class="nav-item">
+                        <a class="nav-link hvr-underline-from-center text-menu" href="/nosotros">¿Por qué ProVisions?</a>
+                         </li>
                         <li class="nav-item exito">
                           <a class="nav-link hvr-underline-from-center text-menu" href="/casos-de-exito">Casos de éxito</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link hvr-underline-from-center text-menu" href="/blog">Blog</a>
                         </li>
                       </li>
                     </ul>
