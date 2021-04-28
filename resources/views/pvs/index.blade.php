@@ -150,9 +150,9 @@
   </div>
 </div>
 </section>
-<div class="hvr-push" id="whatsapp-icon" style="position:fixed; right:24px; bottom:100px; text-align:center; padding:3px">
+<!--<div class="hvr-push" id="whatsapp-icon" style="position:fixed; right:24px; bottom:100px; text-align:center; padding:3px">
 <a href="https://api.whatsapp.com/send?phone=525531617135&text=Hola, me podrían dar más información. Tengo en mente un proyecto.">
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/240px-WhatsApp.svg.png" width="50" height="50"></a>
-</div>
+</div> -->
 @include('pvs.complements.footer')
 @endsection

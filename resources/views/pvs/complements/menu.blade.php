@@ -14,9 +14,9 @@
              <div class="row banner-contact">
                <div class="col-md-12 d-none d-lg-block">
                  <ul class="navbar-nav">
-                    <li class="nav-item">
+<!--                    <li class="nav-item">
                         <a class="nav-link text-menu" href="https://api.whatsapp.com/send?phone=525531617135&text=Hola, me podrían dar más información. Tengo en mente un proyecto."><i class="fas fa-phone icon-menu"></i> <span>55 3161 7135 </span> </a>
-                      <li class="nav-item">
+     -->                 <li class="nav-item">
                         <a class="nav-link text-menu" href="https://www.facebook.com/ProVisionsSystems"><i class="fab fa-facebook-square icon-menu"></i> <span>ProVisions Systems</span> </a>
                       </li>
                       <li class="nav-item mt-1">
@@ -43,8 +43,8 @@
               </div>
               <div class="row  d-xs-block d-lg-none">
                 <div class="col-md-12 mt-2">
-                  <a class="text-menu" href="https://api.whatsapp.com/send?phone=525531617135&text=Hola, me podrían dar más información. Tengo en mente un proyecto."><i class="fas fa-phone icon-menu" style="color: #a5d936;"></i> <span class="text-head-res mr-2"> 55 3161 7135 </span> </a>
-                  <a class="text-menu" href="https://www.facebook.com/ProVisionsSystems"><i class="fab fa-facebook-square icon-menu" style="color: #a5d936;"></i> <span class="text-head-res">Provisions Systems</span> </a>
+        <!--          <a class="text-menu" href="https://api.whatsapp.com/send?phone=525531617135&text=Hola, me podrían dar más información. Tengo en mente un proyecto."><i class="fas fa-phone icon-menu" style="color: #a5d936;"></i> <span class="text-head-res mr-2"> 55 3161 7135 </span> </a>
+            -->      <a class="text-menu" href="https://www.facebook.com/ProVisionsSystems"><i class="fab fa-facebook-square icon-menu" style="color: #a5d936;"></i> <span class="text-head-res">Provisions Systems</span> </a>
                 </div>
              </div>
            </div>

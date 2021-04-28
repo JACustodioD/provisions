@@ -39,9 +39,9 @@
                 <li>
                   <a href="https://www.facebook.com/ProVisionsSystems" class="sub-text-foot"><i class="fab fa-facebook mr-1" style="color: #a5d936; font-size:1em;"></i>ProVisions Systems</a> 
                 </li>
-                <li>
+<!--                <li>
                   <a href="https://api.whatsapp.com/send?phone=525531617135&text=Hola, me podrían dar más información. Tengo en mente un proyecto."  class="sub-text-foot"><i class="fab fa-whatsapp mr-1" style="color: #a5d936; font-size:1em;"></i>55 3161 7135</a> 
-                </li>
+                </li> -->
                 <li>
                   <a href="https://www.instagram.com/ProVisionSystems"  class="sub-text-foot"><i class="fab fa-instagram mr-1" style="color: #a5d936; font-size:1em;"></i>ProVisions Systems</a> 
                 </li>
